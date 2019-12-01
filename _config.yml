@@ -12,7 +12,7 @@ header:
   has_nav: true
   has_social: true
 footer:
-  content: "&copy Ashli Taylor 2019. Designed with &hearts on"
+  content: "&copy Ashli Taylor 2019. Designed with"
   links:
   - text: Jekyll
     url: https://jekyllrb.com/
