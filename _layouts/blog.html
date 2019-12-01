@@ -2,25 +2,26 @@
 layout: body
 ---
 
-<div class="post-feed">
-    {% set display_posts = getPages("/posts") | sort(true, true, "date") %}
+  <div class="post-feed">
+    {% assign display_posts = '/posts' | get_pages | sort: 'date' | reverse %}
     {% for post in display_posts %}
     <article class="post">
       <div class="post-inside">
-        {% if post.params.thumb_img_path %}
+        {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
+        {% if thumb_img_path_is_not_empty %}
         <a class="post-thumbnail" href="{{ post.url | relative_url }}">
-          <img class="thumbnail" src="{{ post.params.thumb_img_path | relative_url }}" alt="{{ post.params.title }}" />
+          <img class="thumbnail" src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" />
         </a>
         {% endif %}
         <header class="post-header">
-          <h2 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.params.title }}</a></h2>
+          <h2 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h2>
         </header><!-- .post-header -->
         <div class="post-content">
-          <p>{{ post.params.excerpt }}</p>
+          <p>{{ post.excerpt }}</p>
         </div>
         <footer class="post-meta">
           <time class="published"
-            datetime="{{post.date | date_format("%Y-%m-%d %H:%M") }}">{{ post.date | date_format("%B %d, %Y") }}</time>
+            datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%B %d, %Y' }}</time>
         </footer>
       </div><!-- .post-inside -->
     </article><!-- .post -->
