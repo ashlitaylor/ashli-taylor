@@ -6,7 +6,7 @@ sections:
   section_id: hero
   component: hero_block.html
   content: This is my portfolio.
-  title: ''
+  title: Hi, I'm Ashli
   actions: []
 - type: contentblock
   template: contentblock
