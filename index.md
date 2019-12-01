@@ -10,7 +10,7 @@ sections:
   actions: []
 - type: contentblock
   template: contentblock
-  title: About
+  title: About Me
   section_id: about
   actions:
   - label: Contact Me
