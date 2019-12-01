@@ -26,7 +26,7 @@ sections:
   title: Featured Projects
   section_id: recent-posts
   actions:
-  - label: View Blog
+  - label: View more projects
     url: blog/index.html
   component: posts_block.html
   num_posts_displayed: 4
