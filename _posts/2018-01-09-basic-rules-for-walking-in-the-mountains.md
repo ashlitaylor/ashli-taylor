@@ -1,5 +1,5 @@
 ---
-title: Basic Rules For Walking In The Mountains
+title: "**TEST** Basic Rules For Walking In The Mountains"
 date: 2018-01-09
 thumb_img_path: images/6.jpg
 content_img_path: images/6.jpg
