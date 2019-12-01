@@ -39,12 +39,12 @@ sections:
   label: Page
   create: all
   match: "**/*.md"
-  exclude: "{_posts/**,README.md,LICENSE.md,index.md,blog/index.md,contact.md}"
   templates:
   - page
 - type: jekyll-posts
   label: Post
   create: all
+  new_doc_ext: ".md"
   templates:
   - post
 - type: document
