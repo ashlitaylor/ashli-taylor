@@ -23,7 +23,7 @@ sections:
   image: ''
 - type: postsblock
   template: postsblock
-  title: Recent Posts
+  title: Featured Projects
   section_id: recent-posts
   actions:
   - label: View Blog
