@@ -26,7 +26,7 @@ sections:
   - home
 - type: document
   path: blog/index.md
-  label: Blog
+  label: Portfolio
   templates:
   - blog
 - type: document
