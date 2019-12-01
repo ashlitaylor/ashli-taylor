@@ -13,7 +13,7 @@ sections:
   title: About Me
   section_id: about
   actions:
-  - label: Contact Me
+  - label: Contact
     url: "/contact"
   component: content_block.html
   content: This is the "about" excerpt. It can be used to provide a paragraph about
