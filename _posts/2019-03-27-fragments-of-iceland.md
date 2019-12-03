@@ -256,19 +256,33 @@ height:250px;
 <div class = "image_wrapper">
 
 ![png](images/eeg/output_7_0.png)
+
 ![png](images/eeg/output_7_1.png)
+
 ![png](images/eeg/output_7_2.png)
+
 ![png](images/eeg/output_7_3.png)
+
 ![png](images/eeg/output_7_4.png)
+
 ![png](images/eeg/output_7_5.png)
+
 ![png](images/eeg/output_7_6.png)
+
 ![png](images/eeg/output_7_7.png)
+
 ![png](images/eeg/output_7_8.png)
+
 ![png](images/eeg/output_7_9.png)
+
 ![png](images/eeg/output_7_10.png)
+
 ![png](images/eeg/output_7_11.png)
+
 ![png](images/eeg/output_7_12.png)
+
 ![png](images/eeg/output_7_13.png)
+
 ![png](images/eeg/output_7_14.png)
 
 </div>
@@ -289,18 +303,31 @@ for column in x_data:
 <div class = "image_wrapper">
 
 ![png](images/eeg/output_9_0.png)
+
 ![png](images/eeg/output_9_1.png)
+
 ![png](images/eeg/output_9_2.png)
+
 ![png](images/eeg/output_9_3.png)
+
 ![png](images/eeg/output_9_4.png)
+
 ![png](images/eeg/output_9_5.png)
+
 ![png](images/eeg/output_9_6.png)
+
 ![png](images/eeg/output_9_7.png)
+
 ![png](images/eeg/output_9_8.png)
+
 ![png](images/eeg/output_9_9.png)
+
 ![png](images/eeg/output_9_10.png)
+
 ![png](images/eeg/output_9_11.png)
+
 ![png](images/eeg/output_9_12.png)
+
 ![png](images/eeg/output_9_13.png)
 
 </div>
@@ -361,19 +388,33 @@ plt.show()
 <div class = "image_wrapper">
 
 ![png](images/eeg/output_13_0.png)
+
 ![png](images/eeg/output_13_1.png)
+
 ![png](images/eeg/output_13_2.png)
+
 ![png](images/eeg/output_13_3.png)
+
 ![png](images/eeg/output_13_4.png)
+
 ![png](images/eeg/output_13_5.png)
+
 ![png](images/eeg/output_13_6.png)
+
 ![png](images/eeg/output_13_7.png)
+
 ![png](images/eeg/output_13_8.png)
+
 ![png](images/eeg/output_13_9.png)
+
 ![png](images/eeg/output_13_10.png)
+
 ![png](images/eeg/output_13_11.png)
+
 ![png](images/eeg/output_13_12.png)
+
 ![png](images/eeg/output_13_13.png)
+
 ![png](images/eeg/output_13_14.png)
 
 </div>
@@ -395,18 +436,31 @@ for i in x_data:
 <div class = "image_wrapper">
 
 ![png](images/eeg/output_15_1.png)
+
 ![png](images/eeg/output_15_2.png)
+
 ![png](images/eeg/output_15_3.png)
+
 ![png](images/eeg/output_15_4.png)
+
 ![png](images/eeg/output_15_5.png)
+
 ![png](images/eeg/output_15_6.png)
+
 ![png](images/eeg/output_15_7.png)
+
 ![png](images/eeg/output_15_8.png)
+
 ![png](images/eeg/output_15_9.png)
+
 ![png](images/eeg/output_15_10.png)
+
 ![png](images/eeg/output_15_11.png)
+
 ![png](images/eeg/output_15_12.png)
+
 ![png](images/eeg/output_15_13.png)
+
 ![png](images/eeg/output_15_14.png)
 
 </div>
@@ -423,18 +477,31 @@ for column in x_data:
 <div class = "image_wrapper">
 
 ![png](images/eeg/output_16_0.png)
+
 ![png](images/eeg/output_16_1.png)
+
 ![png](images/eeg/output_16_2.png)
+
 ![png](images/eeg/output_16_3.png)
+
 ![png](images/eeg/output_16_4.png)
+
 ![png](images/eeg/output_16_5.png)
+
 ![png](images/eeg/output_16_6.png)
+
 ![png](images/eeg/output_16_7.png)
+
 ![png](images/eeg/output_16_8.png)
+
 ![png](images/eeg/output_16_9.png)
+
 ![png](images/eeg/output_16_10.png)
+
 ![png](images/eeg/output_16_11.png)
+
 ![png](images/eeg/output_16_12.png)
+
 ![png](images/eeg/output_16_13.png)
 
 </div>
