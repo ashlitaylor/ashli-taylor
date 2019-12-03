@@ -8,4 +8,4 @@ menu:
     weight: 5
 
 ---
-Fill the form below to get in touch.
+Fill out the form below to get in touch.
