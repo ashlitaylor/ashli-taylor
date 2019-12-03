@@ -1,7 +1,7 @@
 ---
 title: Eye State Classification
-subtitle: Python, Scikit-learn, Random Forests, SVC, KNN, Feature Selection, PCA,
-  Temporal Analysis
+subtitle: [Python, Scikit-learn, Random Forests, SVC, KNN, Feature Selection, PCA,
+  Temporal Analysis](https://github.com/ashlitaylor/EyeState)
 date: 2019-03-27
 thumb_img_path: images/EEgEye.png
 excerpt: 'An assortment of classification models that evaluates the future potential
