@@ -1,7 +1,7 @@
 ---
 title: Eye State Classification
 subtitle: Python, Scikit-learn, Random Forests, SVC, KNN, Feature Selection, PCA, Temporal Analysis
-date: 9999
+date: 2019-03-27
 thumb_img_path: images\EEgEye.png
 excerpt: >-
   An assortment of classification models that evaluates the future potential of predicting whether or not a person's eyes are open or     closed using EEG sensor data. 
