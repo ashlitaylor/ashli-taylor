@@ -8,7 +8,7 @@ menu:
     weight: 3
 
 ---
-<div align="center" class="embed-responsive embed-responsive-4by3" style="width:240px;height:360px">
+<div align="center" class="embed-responsive embed-responsive-4by3" style="width:360px;height:360px">
 <iframe class= "embed-responsive-item" src="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true" scrolling="yes"></iframe>
 </div>
 
