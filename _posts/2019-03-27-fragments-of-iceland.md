@@ -1,31 +1,35 @@
 ---
 title: Eye State Classification
-subtitle: Python, Scikit-learn, Random Forests, SVC, KNN, Feature Selection, PCA, Temporal Analysis
+subtitle: Python, Scikit-learn, Random Forests, SVC, KNN, Feature Selection, PCA,
+  Temporal Analysis
 date: 2019-03-27
 thumb_img_path: images/EEgEye.png
-excerpt: >-
-  An assortment of classification models that evaluates the future potential of predicting whether or not a person's eyes are open or     closed using EEG sensor data. 
+excerpt: 'An assortment of classification models that evaluates the future potential
+  of predicting whether or not a person''s eyes are open or     closed using EEG sensor
+  data. '
 layout: post
----
+content_img_path: ''
+canonical_url: ''
 
-<header> 
-    <h1 align="center"> Classification of Eye State via Supervised Learning using the <br> Python Scikit Learn Library </h1>
-    <h6 align="center"> Data Exploration, Data Cleaning, Hyperparameter Tuning and Feature Selection </h6>
+---
+<header>
+<h1 align="center"> Classification of Eye State via Supervised Learning using the <br> Python Scikit Learn Library </h1>
+<h6 align="center"> Data Exploration, Data Cleaning, Hyperparameter Tuning and Feature Selection </h6>
 </header>
 
 In this project I evaluated three classifier models to accurately predict when an individual's eyes are open or closed using electroencephalography (EEG) measurements. I performed principal component analysis and recursive feature elimination to test if the models and experiments could be simplified via dimmensionality reduction. I chose the best model based on various classification metrics, and used it to perform temporal analysis on the data to further improve the model accuracy.
 
 The dataset for this project originates from the UCI [EEG Eye State dataset](http://archive.ics.uci.edu/ml/datasets/EEG+Eye+State#), and was collected in 2013 by Roesler et al to understand how EEG measurements could be used to perform classification of a person's eye state. The goal of my project was to evaluate the results of the original experiment and explore some of the proposed future work.
 
-<header> 
-    <h3> <u><br>Background</u> </h3>
+<header>
+<h3> <u><br>Background</u> </h3>
 </header>
 Eye state detection is the task of predicting the state of whether the eye is open or closed, and is useful for cognitive state classification. The variety of applications for predicting the eye state has a wide range, and includes emotion detection, autonomous vehicle driver drowsiness, and computer games.
 
 Roesler et al proposed that eye state could be predicted by brain waves using electroencephalography (EEG) measurements and conducted an experiment to test this hypothesis in 2013. In their trial, they used a test subject who was instructed to open and close their eyes for varied intervals while wearing an Emotiv EEG Neuroheadset. The resulting dataset was constructed from one continuous 117 second long electroencephalography (EEG) measurement. Their experiments on the collected data involved 42 classification models from the Weka toolskit. The results of their expriments ultimately proved that it was possible to predict eye state using EEG measurements, and they favored an instance based model, KStar, that produced an accuracy rate of 97%.
 
-<header> 
-    <h3> <u>Motivation</u> </h3>
+<header>
+<h3> <u>Motivation</u> </h3>
 </header>
 My original motivation to explore this classification task was a project that involved evaulating the EEG Eye State Dataset and comparing a selection of classification models. I developed an interest in the research material after I read Roesler's <a href="http://suendermann.com/su/pdf/aihls2013.pdf" target="_blank">paper</a> about the results of his team's experiments, and I created models to explore some of the future work proposed by Roesler et al by evaluating:
 
@@ -34,20 +38,20 @@ My original motivation to explore this classification task was a project that in
 
 I created and compared [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), [Support Vector Machine](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC), and [K-Nearest-Neighbor](https://scikit-learn.org/stable/modules/neighbors.html) classification models using the Scikit-Learn machine learning library, and performed principal component analysis, feature selection and temporal analysis.
 
-<header> 
-    <h3> <u>Library Imports</u> </h3>
+<header>
+<h3> <u>Library Imports</u> </h3>
 </header>
 
 I imported various libraries for this project.
 
-- Numpy, since Scikit-Learn is built on numpy
-- The sklearn neighbors, svm and ensemble machine learning libraries to build the respective KNN, SVC and Random Forest classification models.
-- Pandas, matplotlib and seaborn to faciliate data exploration and visualization.
-- Various classification performance measures.
-- Preprocessing library to standardize the data.
-- PCA and Feature Selection to perform feature analysis and selection.
-- Time to measure how long each model takes to fit the data.
-- Warnings to suppress unnecessary deprecation warnings
+* Numpy, since Scikit-Learn is built on numpy
+* The sklearn neighbors, svm and ensemble machine learning libraries to build the respective KNN, SVC and Random Forest classification models.
+* Pandas, matplotlib and seaborn to faciliate data exploration and visualization.
+* Various classification performance measures.
+* Preprocessing library to standardize the data.
+* PCA and Feature Selection to perform feature analysis and selection.
+* Time to measure how long each model takes to fit the data.
+* Warnings to suppress unnecessary deprecation warnings
 
 ```python
 #To facilitate data exploration
@@ -82,8 +86,8 @@ warnings.simplefilter(action = 'ignore', category = FutureWarning)
 warnings.simplefilter(action = 'ignore', category = DeprecationWarning)
 ```
 
-<header> 
-    <h3> <u>The Data</u> </h3>
+<header>
+<h3> <u>The Data</u> </h3>
 </header>
 
 The [EEG Eye State dataset](http://archive.ics.uci.edu/ml/datasets/EEG+Eye+State#) contains 14980 instances and consists of 14 EEG values and a value indicating the eye state. '1' indicates the eye-closed and '0' the eye-open state. They are stored in chronological order of collection.
@@ -104,127 +108,127 @@ data.head()
     Number of instances in the  data file:  14980
 
 <style>
-    .table_wrapper{
-        display: block;
-        overflow-x:auto;
-        white-space:nowrap;
-    }
+.table_wrapper{
+display: block;
+overflow-x:auto;
+white-space:nowrap;
+}
 </style>
 
 <div class = "table_wrapper">
 <table border="1">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>X1</th>
-      <th>X2</th>
-      <th>X3</th>
-      <th>X4</th>
-      <th>X5</th>
-      <th>X6</th>
-      <th>X7</th>
-      <th>X8</th>
-      <th>X9</th>
-      <th>X10</th>
-      <th>X11</th>
-      <th>X12</th>
-      <th>X13</th>
-      <th>X14</th>
-      <th>y</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>4329.23</td>
-      <td>4009.23</td>
-      <td>4289.23</td>
-      <td>4148.21</td>
-      <td>4350.26</td>
-      <td>4586.15</td>
-      <td>4096.92</td>
-      <td>4641.03</td>
-      <td>4222.05</td>
-      <td>4238.46</td>
-      <td>4211.28</td>
-      <td>4280.51</td>
-      <td>4635.90</td>
-      <td>4393.85</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>4324.62</td>
-      <td>4004.62</td>
-      <td>4293.85</td>
-      <td>4148.72</td>
-      <td>4342.05</td>
-      <td>4586.67</td>
-      <td>4097.44</td>
-      <td>4638.97</td>
-      <td>4210.77</td>
-      <td>4226.67</td>
-      <td>4207.69</td>
-      <td>4279.49</td>
-      <td>4632.82</td>
-      <td>4384.10</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>4327.69</td>
-      <td>4006.67</td>
-      <td>4295.38</td>
-      <td>4156.41</td>
-      <td>4336.92</td>
-      <td>4583.59</td>
-      <td>4096.92</td>
-      <td>4630.26</td>
-      <td>4207.69</td>
-      <td>4222.05</td>
-      <td>4206.67</td>
-      <td>4282.05</td>
-      <td>4628.72</td>
-      <td>4389.23</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>4328.72</td>
-      <td>4011.79</td>
-      <td>4296.41</td>
-      <td>4155.90</td>
-      <td>4343.59</td>
-      <td>4582.56</td>
-      <td>4097.44</td>
-      <td>4630.77</td>
-      <td>4217.44</td>
-      <td>4235.38</td>
-      <td>4210.77</td>
-      <td>4287.69</td>
-      <td>4632.31</td>
-      <td>4396.41</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>4326.15</td>
-      <td>4011.79</td>
-      <td>4292.31</td>
-      <td>4151.28</td>
-      <td>4347.69</td>
-      <td>4586.67</td>
-      <td>4095.90</td>
-      <td>4627.69</td>
-      <td>4210.77</td>
-      <td>4244.10</td>
-      <td>4212.82</td>
-      <td>4288.21</td>
-      <td>4632.82</td>
-      <td>4398.46</td>
-      <td>0</td>
-    </tr>
-  </tbody>
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>X1</th>
+<th>X2</th>
+<th>X3</th>
+<th>X4</th>
+<th>X5</th>
+<th>X6</th>
+<th>X7</th>
+<th>X8</th>
+<th>X9</th>
+<th>X10</th>
+<th>X11</th>
+<th>X12</th>
+<th>X13</th>
+<th>X14</th>
+<th>y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>4329.23</td>
+<td>4009.23</td>
+<td>4289.23</td>
+<td>4148.21</td>
+<td>4350.26</td>
+<td>4586.15</td>
+<td>4096.92</td>
+<td>4641.03</td>
+<td>4222.05</td>
+<td>4238.46</td>
+<td>4211.28</td>
+<td>4280.51</td>
+<td>4635.90</td>
+<td>4393.85</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>4324.62</td>
+<td>4004.62</td>
+<td>4293.85</td>
+<td>4148.72</td>
+<td>4342.05</td>
+<td>4586.67</td>
+<td>4097.44</td>
+<td>4638.97</td>
+<td>4210.77</td>
+<td>4226.67</td>
+<td>4207.69</td>
+<td>4279.49</td>
+<td>4632.82</td>
+<td>4384.10</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>4327.69</td>
+<td>4006.67</td>
+<td>4295.38</td>
+<td>4156.41</td>
+<td>4336.92</td>
+<td>4583.59</td>
+<td>4096.92</td>
+<td>4630.26</td>
+<td>4207.69</td>
+<td>4222.05</td>
+<td>4206.67</td>
+<td>4282.05</td>
+<td>4628.72</td>
+<td>4389.23</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4328.72</td>
+<td>4011.79</td>
+<td>4296.41</td>
+<td>4155.90</td>
+<td>4343.59</td>
+<td>4582.56</td>
+<td>4097.44</td>
+<td>4630.77</td>
+<td>4217.44</td>
+<td>4235.38</td>
+<td>4210.77</td>
+<td>4287.69</td>
+<td>4632.31</td>
+<td>4396.41</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4326.15</td>
+<td>4011.79</td>
+<td>4292.31</td>
+<td>4151.28</td>
+<td>4347.69</td>
+<td>4586.67</td>
+<td>4095.90</td>
+<td>4627.69</td>
+<td>4210.77</td>
+<td>4244.10</td>
+<td>4212.82</td>
+<td>4288.21</td>
+<td>4632.82</td>
+<td>4398.46</td>
+<td>0</td>
+</tr>
+</tbody>
 </table>
 </div>
 
@@ -240,13 +244,14 @@ plt.show()
 ```
 
 <style>
-    .image_wrapper{
-        display: block;
-        overflow-y:auto;
-        height:250px;
+.image_wrapper{
+display: block;
+overflow-y:auto;
+height:250px;
 
     }
-</style>
+
+</style> 
 
 <div class = "image_wrapper">
 
@@ -352,6 +357,7 @@ for i in range(values.shape[1]):
     ax.set_title(str(data_sans_outliers.columns[i]) + ' temporal trace')
 plt.show()
 ```
+
 <div class = "image_wrapper">
 
 ![png](images/eeg/output_13_0.png)
@@ -385,6 +391,7 @@ for i in x_data:
 ```
 
     <Figure size 432x288 with 0 Axes>
+
 <div class = "image_wrapper">
 
 ![png](images/eeg/output_15_1.png)
@@ -411,7 +418,6 @@ for column in x_data:
     fig, ax = plt.subplots()
     ax.set_title('Plot of feature '+ column)
     ax.boxplot(x_data[column], flierprops=red_square)
-
 ```
 
 <div class = "image_wrapper">
@@ -442,8 +448,8 @@ random_state = 100
 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, train_size = 0.7, random_state = random_state, shuffle = True)
 ```
 
-<header> 
-    <h3> <u>The Models</u> </h3>
+<header>
+<h3> <u>The Models</u> </h3>
 </header>
 
 ### Random Forest
@@ -459,7 +465,7 @@ pprint(randFor.get_params())
 ```
 
     Default Random Forest parmeters in use:
-
+    
     {'bootstrap': True,
      'class_weight': None,
      'criterion': 'gini',
@@ -539,11 +545,10 @@ Viewing the best parameters from fitting random search
 ```python
 print("Best Random Forest parmeters from Randomized Search:\n")
 pprint(rand_search_RF.best_params_)
-
 ```
 
     Best Random Forest parmeters from Randomized Search:
-
+    
     {'bootstrap': False,
      'max_depth': 20,
      'max_features': 'auto',
@@ -583,11 +588,11 @@ grid_search_RF.best_estimator_
 
     Best parameters:  {'bootstrap': False, 'max_depth': 160, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 85}
     Best Score:  0.928
-
-
-
-
-
+    
+    
+    
+    
+    
     RandomForestClassifier(bootstrap=False, class_weight=None, criterion='gini',
                            max_depth=160, max_features='sqrt', max_leaf_nodes=None,
                            min_impurity_decrease=0.0, min_impurity_split=None,
@@ -638,7 +643,7 @@ pprint(svcModel.get_params())
 ```
 
     Default SVC parmeters in use:
-
+    
     {'C': 1.0,
      'cache_size': 200,
      'class_weight': None,
@@ -704,11 +709,11 @@ grid_search_SVC.best_estimator_
 
     Best parameters:  {'C': 100, 'gamma': 1, 'kernel': 'rbf'}
     Best Score:  0.976
-
-
-
-
-
+    
+    
+    
+    
+    
     SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
         decision_function_shape='ovr', degree=3, gamma=1, kernel='rbf', max_iter=-1,
         probability=False, random_state=None, shrinking=True, tol=0.001,
@@ -728,7 +733,6 @@ svcModelGrid = svcGrid.fit(x_train_scaled, y_train)
 gridTestPreds_SVC = svcModelGrid.predict(x_test_scaled)
 gridTestAccuracy_SVC = accuracy_score(y_test, gridTestPreds_SVC)
 print("SVC test accuracy with hyperparameter tuning: ",round(gridTestAccuracy_SVC,3))
-
 ```
 
     Mean test score for best combination:  0.976
@@ -748,7 +752,7 @@ pprint(knnModel.get_params())
 ```
 
     Default K-NN parmeters in use:
-
+    
     {'algorithm': 'auto',
      'leaf_size': 30,
      'metric': 'minkowski',
@@ -820,8 +824,8 @@ print("KNN test accuracy with hyperparameter tuning: ",round(gridTestAccuracy_KN
 
 After training and tuning all three models, I proceeded to compare them.
 
-<header> 
-    <h3> <u>Comparing Model Performance</u> </h3>
+<header>
+<h3> <u>Comparing Model Performance</u> </h3>
 </header>
 
 I compared the model performances using confusion matrices, precision, accuracy and fit time.
@@ -903,8 +907,8 @@ plt.show()
 
 Based on accuracy and precision, the Support Vector Classifier slightly edges out the KNN Classifier with the best model performance. In applications where speed is not a critical issue, this classifier is the best. However, in applications where speed is critical factor, the KNN classifier outperforms both the Random Forest and Support Vector Machine, since it is a 'lazy' learner that fit the test the most expediently out of all three with a fit time of 0.05s.
 
-<header> 
-    <h3> <u>Feature Selection</u> </h3>
+<header>
+<h3> <u>Feature Selection</u> </h3>
 </header>
 
 One of the items that the authors of the research paper cited for potential future work is ascertaining whether or not all 14 EEG sensors were needed to maintain high model accuracy. I explored this by performing recursive feature elimination with cross valiadation (RFECV) using the scikit learn library using my Random Forest model. I used this model because the SVC with RBF kernel and K-NN Classifiers do not leverage feature importance to when measuring similarity.
@@ -1028,71 +1032,71 @@ pca_report
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+.dataframe tbody tr th:only-of-type {
+vertical-align: middle;
+}
 
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
 
 </style>
 <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Retained Variance</th>
-      <th>No. Components</th>
-      <th>Accuracy</th>
-      <th>Fit Time (s)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>0.99</td>
-      <td>12</td>
-      <td>0.964</td>
-      <td>19.01</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>0.95</td>
-      <td>8</td>
-      <td>0.896</td>
-      <td>32.99</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>0.90</td>
-      <td>5</td>
-      <td>0.771</td>
-      <td>75.48</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>0.85</td>
-      <td>3</td>
-      <td>0.680</td>
-      <td>93.68</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>0.80</td>
-      <td>3</td>
-      <td>0.680</td>
-      <td>85.38</td>
-    </tr>
-  </tbody>
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Retained Variance</th>
+<th>No. Components</th>
+<th>Accuracy</th>
+<th>Fit Time (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0.99</td>
+<td>12</td>
+<td>0.964</td>
+<td>19.01</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0.95</td>
+<td>8</td>
+<td>0.896</td>
+<td>32.99</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0.90</td>
+<td>5</td>
+<td>0.771</td>
+<td>75.48</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0.85</td>
+<td>3</td>
+<td>0.680</td>
+<td>93.68</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0.80</td>
+<td>3</td>
+<td>0.680</td>
+<td>85.38</td>
+</tr>
+</tbody>
 </table>
 </div>
 
-<header> 
-    <h3> <u>Temporal Analysis</u> </h3>
+<header>
+<h3> <u>Temporal Analysis</u> </h3>
 </header>
 
 Time Series analysis mandates that the temporal integrity of the instances is maintained. When performing the splits for training and testing, I set the 'shuffle' parameter to False to maintain the temporal order and use the first 70% of observations from the experiment for training, and the last 30% of observations from the experiment for testing.
@@ -1154,6 +1158,6 @@ plt.show()
 
 ![png](images/eeg/output_77_0.png)
 
-<header> 
-    <h3> <u>Concluding remarks</u> </h3>
+<header>
+<h3> <u>Concluding remarks</u> </h3>
 </header>
