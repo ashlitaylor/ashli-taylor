@@ -23,13 +23,15 @@ Second block
 
 Third block
 
+<div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px">
+
 <iframe src="https://developer.mozilla.org/en-US/docs/Glossary"
 
-        width="100%" height="500" frameborder="0"
+        width="100%" height="500px" frameborder="0"
 
         allowfullscreen sandbox>
 
-</iframe>
+</iframe></div>
 
 ***
 
