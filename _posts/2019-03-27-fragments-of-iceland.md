@@ -254,7 +254,7 @@ height:250px;
 
 <div class = "image_wrapper">
 
-<img src = "images/eeg/output_7_0.png">
+<img src = "/images/eeg/output_7_0.png">
 
 ![png](images/eeg/output_7_0.png)
 
