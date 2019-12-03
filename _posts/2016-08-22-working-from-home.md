@@ -9,17 +9,10 @@ layout: post
 ---
 ### Choropleth of US County Poverty Rates
 
-<div align="center" class="index" style="width:100%;height:360px"> <iframe sandbox= "allow-popups allow-scripts allow-forms allow-same-origin" src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" marginwidth = "0" marginheight = "0" style = "height:500px;" scrolling = "no"></iframe> 
+<div class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px"> <iframe sandbox= "allow-popups allow-scripts allow-forms allow-same-origin" src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" marginwidth = "0" marginheight = "0" style = "height:500px;" scrolling = "no"></iframe> </div> 
 
-</div> <div id="resume-download"> <a href="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" target="_blank" class="button">View Full site</a> </div>
+<div id="resume-download"> <a href="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" target="_blank" class="button">For first block</a> </div>
 
-<div align="center" class="index" style="width:100%;height:360px"> <iframe sandbox= "allow-popups allow-scripts allow-forms allow-same-origin" src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" scrolling="yes"></iframe> </div> <div id="resume-download"> <a href="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" target="_blank" class="button">View Full site</a> </div>
+<div align="center" class="index" style="width:100%;height:360px"> <iframe sandbox= "allow-popups allow-scripts allow-forms allow-same-origin" src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" scrolling="yes"></iframe> </div> <div id="resume-download"> <a href="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" target="_blank" class="button">For second block</a> </div>
 
-<div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px">
-<iframe class= "embed-responsive-item" style="width:100%;height:360px" src="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" scrolling="yes"></iframe>
-</div>
-
-
-<div id="resume-download">
-<a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank" class="button">View Full site</a>
-</div>
+<div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px"> <iframe class= "embed-responsive-item" style="width:100%;height:360px" src="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" scrolling="yes"></iframe> </div> <div id="resume-download"> <a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank" class="button">View Full site for third block</a> </div>
