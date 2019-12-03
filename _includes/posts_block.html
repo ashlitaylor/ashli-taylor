@@ -19,8 +19,13 @@
           <p>{{ post.excerpt }}</p>
         </div>
         <footer class="post-meta">
+          <time class="published" datetime="{{post.subtitle}}">
+            {{ post.subtitle }}
+          </time>
+          <!--
           <time class="published"
-            datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%B %d, %Y' }}</time>
+            datetime="{{post.date | date_format("%Y-%m-%d %H:%M") }}">{{ post.date | date_format("%B %d, %Y") }}</time>
+          -->
         </footer>
       </div><!-- .post-inside -->
     </article><!-- .post -->
