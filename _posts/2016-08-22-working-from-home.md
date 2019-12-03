@@ -7,7 +7,7 @@ excerpt: Work created using D3.JS
 layout: post
 
 ---
-Updated 12/03 @5:40PM
+Updated 12/03 @5:43PM
 
 First block
 
@@ -28,12 +28,6 @@ Third block
         width="100%" height="500" frameborder="0"
 
         allowfullscreen sandbox>
-
-  <p> <a href="https://developer.mozilla.org/en-US/docs/Glossary">
-
-    Fallback link for browsers that don't support iframes
-
-  </a> </p>
 
 </iframe>
 
