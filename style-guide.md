@@ -8,15 +8,16 @@ menu:
     weight: 3
 
 ---
-<div class="embed-responsive embed-responsive-4by3" id="resume-frame">
-<iframe class= "embed-responsive-item" scrolling="no" width="100%" height="2000"src="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true"></iframe>
+<div align="center" class="embed-responsive embed-responsive-4by3" style="width:400px;height:400px">
+<iframe class= "embed-responsive-item" src="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true" scrolling="no"></iframe>
 </div>
+
 <div id="resume-download">
 <a href="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true" class="btn btn-primary">Download</a>
 </div>
 
 
-
+width="100%" height="2000"
 **This is a paragraph**. Pellentesque habitant morbi *tristique senectus et netus et malesuada* fames ac turpis egestas. Vestibulum [tortor quam](https://www.google.com), feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit <mark>amet est et sapien ullamcorper</mark> pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
 
 # This is an H1
