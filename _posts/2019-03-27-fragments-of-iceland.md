@@ -255,36 +255,21 @@ height:250px;
 <div class = "image_wrapper">
 
 <img src = "/images/eeg/output_7_0.png">
+<img src = "/images/eeg/output_7_1.png">
+<img src = "/images/eeg/output_7_2.png">
+<img src = "/images/eeg/output_7_3.png">
+<img src = "/images/eeg/output_7_4.png">
+<img src = "/images/eeg/output_7_5.png">
+<img src = "/images/eeg/output_7_6.png">
+<img src = "/images/eeg/output_7_7.png">
+<img src = "/images/eeg/output_7_8.png">
+<img src = "/images/eeg/output_7_9.png">
+<img src = "/images/eeg/output_7_10.png">
+<img src = "/images/eeg/output_7_11.png">
+<img src = "/images/eeg/output_7_12.png">
+<img src = "/images/eeg/output_7_13.png">
+<img src = "/images/eeg/output_7_14.png">
 
-![png](images/eeg/output_7_0.png)
-
-![png](images/eeg/output_7_1.png)
-
-![png](images/eeg/output_7_2.png)
-
-![png](images/eeg/output_7_3.png)
-
-![png](images/eeg/output_7_4.png)
-
-![png](images/eeg/output_7_5.png)
-
-![png](images/eeg/output_7_6.png)
-
-![png](images/eeg/output_7_7.png)
-
-![png](images/eeg/output_7_8.png)
-
-![png](images/eeg/output_7_9.png)
-
-![png](images/eeg/output_7_10.png)
-
-![png](images/eeg/output_7_11.png)
-
-![png](images/eeg/output_7_12.png)
-
-![png](images/eeg/output_7_13.png)
-
-![png](images/eeg/output_7_14.png)
 </div>
 
 Box and whisker plots of the measurements further confirm the presence of these anomalous measurements.
@@ -302,33 +287,20 @@ for column in x_data:
 
 <div class = "image_wrapper">
 
-![png](images/eeg/output_9_0.png)
-
-![png](images/eeg/output_9_1.png)
-
-![png](images/eeg/output_9_2.png)
-
-![png](images/eeg/output_9_3.png)
-
-![png](images/eeg/output_9_4.png)
-
-![png](images/eeg/output_9_5.png)
-
-![png](images/eeg/output_9_6.png)
-
-![png](images/eeg/output_9_7.png)
-
-![png](images/eeg/output_9_8.png)
-
-![png](images/eeg/output_9_9.png)
-
-![png](images/eeg/output_9_10.png)
-
-![png](images/eeg/output_9_11.png)
-
-![png](images/eeg/output_9_12.png)
-
-![png](images/eeg/output_9_13.png)
+<img src = "/images/eeg/output_9_0.png">
+<img src = "/images/eeg/output_9_1.png">
+<img src = "/images/eeg/output_9_2.png">
+<img src = "/images/eeg/output_9_3.png">
+<img src = "/images/eeg/output_9_4.png">
+<img src = "/images/eeg/output_9_5.png">
+<img src = "/images/eeg/output_9_6.png">
+<img src = "/images/eeg/output_9_7.png">
+<img src = "/images/eeg/output_9_8.png">
+<img src = "/images/eeg/output_9_9.png">
+<img src = "/images/eeg/output_9_10.png">
+<img src = "/images/eeg/output_9_11.png">
+<img src = "/images/eeg/output_9_12.png">
+<img src = "/images/eeg/output_9_13.png">
 
 </div>
 
@@ -387,35 +359,21 @@ plt.show()
 
 <div class = "image_wrapper">
 
-![png](images/eeg/output_13_0.png)
-
-![png](images/eeg/output_13_1.png)
-
-![png](images/eeg/output_13_2.png)
-
-![png](images/eeg/output_13_3.png)
-
-![png](images/eeg/output_13_4.png)
-
-![png](images/eeg/output_13_5.png)
-
-![png](images/eeg/output_13_6.png)
-
-![png](images/eeg/output_13_7.png)
-
-![png](images/eeg/output_13_8.png)
-
-![png](images/eeg/output_13_9.png)
-
-![png](images/eeg/output_13_10.png)
-
-![png](images/eeg/output_13_11.png)
-
-![png](images/eeg/output_13_12.png)
-
-![png](images/eeg/output_13_13.png)
-
-![png](images/eeg/output_13_14.png)
+<img src = "/images/eeg/output_13_0.png">
+<img src = "/images/eeg/output_13_1.png">
+<img src = "/images/eeg/output_13_2.png">
+<img src = "/images/eeg/output_13_3.png">
+<img src = "/images/eeg/output_13_4.png">
+<img src = "/images/eeg/output_13_5.png">
+<img src = "/images/eeg/output_13_6.png">
+<img src = "/images/eeg/output_13_7.png">
+<img src = "/images/eeg/output_13_8.png">
+<img src = "/images/eeg/output_13_9.png">
+<img src = "/images/eeg/output_13_10.png">
+<img src = "/images/eeg/output_13_11.png">
+<img src = "/images/eeg/output_13_12.png">
+<img src = "/images/eeg/output_13_13.png">
+<img src = "/images/eeg/output_13_14.png">
 
 </div>
 
@@ -435,33 +393,20 @@ for i in x_data:
 
 <div class = "image_wrapper">
 
-![png](images/eeg/output_15_1.png)
-
-![png](images/eeg/output_15_2.png)
-
-![png](images/eeg/output_15_3.png)
-
-![png](images/eeg/output_15_4.png)
-
-![png](images/eeg/output_15_5.png)
-
-![png](images/eeg/output_15_6.png)
-
-![png](images/eeg/output_15_7.png)
-
-![png](images/eeg/output_15_8.png)
-
-![png](images/eeg/output_15_9.png)
-
-![png](images/eeg/output_15_10.png)
-
-![png](images/eeg/output_15_11.png)
-
-![png](images/eeg/output_15_12.png)
-
-![png](images/eeg/output_15_13.png)
-
-![png](images/eeg/output_15_14.png)
+<img src = "/images/eeg/output_15_1.png">
+<img src = "/images/eeg/output_15_2.png">
+<img src = "/images/eeg/output_15_3.png">
+<img src = "/images/eeg/output_15_4.png">
+<img src = "/images/eeg/output_15_5.png">
+<img src = "/images/eeg/output_15_6.png">
+<img src = "/images/eeg/output_15_7.png">
+<img src = "/images/eeg/output_15_8.png">
+<img src = "/images/eeg/output_15_9.png">
+<img src = "/images/eeg/output_15_10.png">
+<img src = "/images/eeg/output_15_11.png">
+<img src = "/images/eeg/output_15_12.png">
+<img src = "/images/eeg/output_15_13.png">
+<img src = "/images/eeg/output_15_14.png">
 
 </div>
 
@@ -476,33 +421,20 @@ for column in x_data:
 
 <div class = "image_wrapper">
 
-![png](images/eeg/output_16_0.png)
-
-![png](images/eeg/output_16_1.png)
-
-![png](images/eeg/output_16_2.png)
-
-![png](images/eeg/output_16_3.png)
-
-![png](images/eeg/output_16_4.png)
-
-![png](images/eeg/output_16_5.png)
-
-![png](images/eeg/output_16_6.png)
-
-![png](images/eeg/output_16_7.png)
-
-![png](images/eeg/output_16_8.png)
-
-![png](images/eeg/output_16_9.png)
-
-![png](images/eeg/output_16_10.png)
-
-![png](images/eeg/output_16_11.png)
-
-![png](images/eeg/output_16_12.png)
-
-![png](images/eeg/output_16_13.png)
+<img src = "/images/eeg/output_16_0.png">
+<img src = "/images/eeg/output_16_1.png">
+<img src = "/images/eeg/output_16_2.png">
+<img src = "/images/eeg/output_16_3.png">
+<img src = "/images/eeg/output_16_4.png">
+<img src = "/images/eeg/output_16_5.png">
+<img src = "/images/eeg/output_16_6.png">
+<img src = "/images/eeg/output_16_7.png">
+<img src = "/images/eeg/output_16_8.png">
+<img src = "/images/eeg/output_16_9.png">
+<img src = "/images/eeg/output_16_10.png">
+<img src = "/images/eeg/output_16_11.png">
+<img src = "/images/eeg/output_16_12.png">
+<img src = "/images/eeg/output_16_13.png">
 
 </div>
 
@@ -923,8 +855,7 @@ for i in modelGridPreds:
     ax[list(modelGridPreds.keys()).index(i)].set_ylim(2,0)
 plt.show()
 ```
-
-![png](images/eeg/output_56_0.png)
+<img src = "/images/eeg/output_56_0.png">
 
 ```python
 data = [[gridTestAccuracy_RF, [cm_per['RF'][1][1]]],
@@ -967,10 +898,8 @@ for i, v, in enumerate(modeltimefit):
            color = 'black', fontweight = 'bold')
 plt.show()
 ```
-
-![png](images/eeg/output_57_0.png)
-
-![png](images/eeg/output_57_1.png)
+<img src = "/images/eeg/output_57_0.png">
+<img src = "/images/eeg/output_57_1.png">
 
 Based on accuracy and precision, the Support Vector Classifier slightly edges out the KNN Classifier with the best model performance. In applications where speed is not a critical issue, this classifier is the best. However, in applications where speed is critical factor, the KNN classifier outperforms both the Random Forest and Support Vector Machine, since it is a 'lazy' learner that fit the test the most expediently out of all three with a fit time of 0.05s.
 
@@ -1005,7 +934,8 @@ plt.title('Feature Importance')
 plt.show()
 ```
 
-![png](images/eeg/output_60_0.png)
+<img src = "/images/eeg/output_60_0.png">
+
 
 ```python
 selRFECVTimeStart = time.clock()
@@ -1040,8 +970,7 @@ plt.ylabel("Cross validation accuracy score")
 plt.plot(range(1, len(selRF.grid_scores_) + 1), selRF.grid_scores_)
 plt.show()
 ```
-
-![png](images/eeg/output_64_0.png)
+<img src = "/images/eeg/output_64_0.png">
 
 ```python
 print("Time to perform RFE w/ CV : ", round(hours,0) , "hours,", round(minutes,0) , "minutes,", round(seconds,2), " seconds")
@@ -1222,8 +1151,7 @@ plt.plot(y_temp_test, marker = '', color = 'green', linewidth = 1)
 
 plt.show()
 ```
-
-![png](images/eeg/output_77_0.png)
+<img src = "/images/eeg/output_77_0.png">
 
 <header>
 <h3> <u>Concluding remarks</u> </h3>
