@@ -12,7 +12,9 @@ menu:
 <iframe class= "embed-responsive-item" src="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true" scrolling="no"></iframe>
 </div>
 
-<iframe width=100% height=1000px src="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true" scrolling="no"></iframe>
+<div class="embed-responsive embed-responsive-4by3"> 
+<iframe class= "embed-responsive-item" width=100% height=1000px src="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true" scrolling="no"></iframe>
+</div>
 
 <div id="resume-download">
 <a href="https://docs.google.com/document/d/e/2PACX-1vQQdOZgvQ80xqCsxA9V1dwyT8MfogDZ10t8uXJx_6evsW69Nb3DqW_hDaEp4t28bg/pub?embedded=true" class="btn btn-primary">Download</a>
