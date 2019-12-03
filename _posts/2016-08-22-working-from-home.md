@@ -27,10 +27,6 @@ Third block
 
 <iframe src="https://developer.mozilla.org/en-US/docs/Glossary"
 
-        width="100%" height="500px" frameborder="0"
-
-        allowfullscreen sandbox>
-
 </iframe></div>
 
 ***
