@@ -248,13 +248,11 @@ plt.show()
 display: block;
 overflow-y:auto;
 height:250px;
-
     }
 
 </style> 
 
 <div class = "image_wrapper">
-
 ![png](images/eeg/output_7_0.png)
 
 ![png](images/eeg/output_7_1.png)
@@ -284,7 +282,6 @@ height:250px;
 ![png](images/eeg/output_7_13.png)
 
 ![png](images/eeg/output_7_14.png)
-
 </div>
 
 Box and whisker plots of the measurements further confirm the presence of these anomalous measurements.
