@@ -1,6 +1,6 @@
 ---
 title: Eye State Classification
-subtitle: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class="button">GitHub Repository</a>
+subtitle: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class="btn btn-primary">GitHub Repository</a>
 date: 2019-03-27
 thumb_img_path: images/EEgEye.png
 excerpt: 'An assortment of classification models that evaluates the future potential
