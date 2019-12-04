@@ -7,7 +7,7 @@ thumb_img_path: "/bitcoin.jpg"
 content_img_path: ''
 excerpt: ''
 canonical_url: ''
-
+position: 2
 ---
 \---
 
