@@ -1,7 +1,7 @@
 ---
 title: Visualizations in D3.JS
 date: 2016-08-22
-thumb_img_path: images/about.jpg
+thumb_img_path: images/visualizations.jpeg
 content_img_path: ''
 excerpt: Work created using D3.JS
 layout: post
