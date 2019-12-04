@@ -41,7 +41,6 @@ fields:
   config:
     required: true
 pages:
-- _posts/pagerank.md
 - _posts/2016-08-22-working-from-home.md
 - _posts/2018-01-15-best-waves-surfing-spain.md
 - _posts/2018-01-11-fox-village-in-japan.md
@@ -49,7 +48,6 @@ pages:
 - _posts/2017-03-26-interior-designer.md
 - _posts/2019-03-24-japan.md
 - _posts/2018-01-23-the-ride-in-the-woods.md
-- _posts/2018-01-09-basic-rules-for-walking-in-the-mountains.md
 - _posts/2018-01-23-the-ride-in-the-woods.md
 - _posts/2019-03-24-japan.md
 - _posts/2017-03-26-interior-designer.md
