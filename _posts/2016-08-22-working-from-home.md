@@ -13,9 +13,15 @@ Removing html block form first, updating stack exchange
 
 Stack exchange
 
+<p>
+
+<img src="images/choropleth.PNG" alt="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")">
+
+This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, th population, and the income per capita.</p>
+
 <blockquote class="embedly-card"><h4><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/">County Poverty Choropleth</a>
 
-<img src="images/choropleth.PNG" alt=""></img></h4><p>This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, th population, and the income per capita.</p></blockquote>
+</img></h4></blockquote>
 
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
