@@ -7,17 +7,17 @@ excerpt: Work created using D3.JS
 layout: post
 
 ---
-Updated 12/03 @7:45PM
+Updated 12/03 @7:47PM
 
 Removing html block form first, updating stack exchange
 
+<div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px"> <p>
+
+<img src="images/choropleth.PNG" alt="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/">
+
+This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, th population, and the income per capita.</p></div>
+
 Stack exchange
-
-<p>
-
-<img src="images/choropleth.PNG" alt="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")">
-
-This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, th population, and the income per capita.</p>
 
 <blockquote class="embedly-card"><h4><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/">County Poverty Choropleth</a>
 
