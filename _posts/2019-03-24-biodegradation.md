@@ -63,9 +63,9 @@ from scipy import stats
 import numpy as np
 import math
 ```
-The first method computes entropy for information gain. Entropy is defined as __ and is calculated by
+The first method computes entropy for information gain. Entropy is a measure of the probability and disorder of a system. For example, a bag that contains three red balls would have an entropy value of zero (0)  whereas 
 
-For example the ex=ntropy of the following set is:::::::
+For example the entropy of the following set is
 entropy([0,0,0,1,1,1,1,1,1]) = 0.92
 
 ```
@@ -97,68 +97,49 @@ def entropy(class_y):
     return entropy
 ```
 
-The second function partitions the classes and takes three values:
-* Data containing all attributes
-* Labels
-* Split attribute
-* Split val
+The second function partitions the data(X) and labels(y) based on the split value - BINARY SPLIT. It takes the following inputs:
+* X: data containing all attributes
+* y: labels
+* split_attribute : column index of the attribute to split on
+* split_val: either a numerical or categorical value to divide the split_attribute
 
-Inputs:
-    #*   X               : data containing all attributes
-    #*   y               : labels
-    #*   split_attribute : column index of the attribute to split on
-    #*   split_val       : either a numerical or categorical value to divide the split_attribute
-    
-TODO: Partition the data(X) and labels(y) based on the split value - BINARY SPLIT.
+First the code checks if the split attribute is numerical or categorical. If the split attribute is categorical, split_val should be one of the categories.   
 
-First: check if the split attribute is numerical or categorical    
-    #* If the split attribute is numeric, split_val should be a numerical value
-    #* If the split attribute is categorical, split_val should be one of the categories.   
-    #*
-    #* Numeric Split Attribute:
-    #*   Split the data X into two lists(X_left and X_right) where the first list has all
-    #*   the rows where the split attribute is less than or equal to the split value, and the 
-    #*   second list has all the rows where the split attribute is greater than the split 
-    #*   value. Also create two lists(y_left and y_right) with the corresponding y labels.
-    #*
-    #* Categorical Split Attribute:
-    #*   Split the data X into two lists(X_left and X_right) where the first list has all 
-    #*   the rows where the split attribute is equal to the split value, and the second list
-    #*   has all the rows where the split attribute is not equal to the split value.
-    #*   Also create two lists(y_left and y_right) with the corresponding y labels.
-    Example:
-  <div><p class = "indented"> 
+###### Numeric Split Attribute:
+If the split attribute is numeric, split_val should be a numerical value. I split the X data into two lists(X_left and X_right) where the first list has all the rows where the split attribute is less than or equal to the split value, and the second list has all the rows where the split attribute is greater than the split value. I also create two lists(y_left and y_right) with the corresponding y labels.
+###### Categorical Split Attribute:
+I split the data X into two lists(X_left and X_right) where the first list has all the rows where the split attribute is equal to the split value, and the second list has all the rows where the split attribute is not equal to the split value. I also create two lists(y_left and y_right) with the corresponding y labels.
+
+Example: Here, columns 0 and 2 represent numeric attributes, while column 1 is a categorical attribute.
+```
     X = [[3, 'aa', 10],                 y = [1,
          [1, 'bb', 22],                      1,
          [2, 'cc', 28],                      0,
          [5, 'bb', 32],                      0,
          [4, 'cc', 32]]                      1]
-    
-    Here, columns 0 and 2 represent numeric attributes, while column 1 is a categorical attribute.
-    
-    Consider the case where we call the function with split_attribute = 0 and split_val = 3 (mean of column 0)
-    Then we divide X into two lists - X_left, where column 0 is &lt; 3  and X_right, where column 0 is &gt; 3.
-    
+``` 
+
+Consider the case where the function is called with split_attribute = 0 and split_val = 3 (mean of column 0). Then the code divides X into two lists - X_left, where column 0 is &lt; 3  and X_right, where column 0 is &gt; 3.
+
+``` 
     X_left = [[3, 'aa', 10],                 y_left = [1,
               [1, 'bb', 22],                           1,
               [2, 'cc', 28]]                           0]
               
     X_right = [[5, 'bb', 32],                y_right = [0,
                [4, 'cc', 32]]                           1]
-    Consider another case where we call the function with split_attribute = 1 and split_val = 'bb'
-    Then we divide X into two lists, one where column 1 is 'bb', and the other where it is not 'bb'.
-        
+```
+Consider another case where the function is called with split_attribute = 1 and split_val = 'bb'. Then the code divides X into two lists, one where column 1 is 'bb', and the other where it is not 'bb'.
+```        
     X_left = [[1, 'bb', 22],                 y_left = [1,
               [5, 'bb', 32]]                           0]
               
     X_right = [[3, 'aa', 10],                y_right = [1,
                [2, 'cc', 28],                           0,
                [4, 'cc', 32]]                           1]
-               
+```
   
-  </p></div>
-  
-The code is below:
+The code implementation is below:
 ```
 def partition_classes(X, y, split_attribute, split_val):
     
@@ -227,4 +208,3 @@ def information_gain(previous_y, current_y):
 3. A random_forest.py code file that contains a random forest class and a main method to test the random forest. Implements the functions _bootstrapping(), fitting(), voting().
 
 The Random Forest uses entropy gain to select the splitting attribute and split point for the selected attribute and achieves 80% accuracy on the QSAR dataset.
-
