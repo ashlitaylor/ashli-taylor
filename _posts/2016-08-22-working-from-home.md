@@ -7,11 +7,13 @@ excerpt: Work created using D3.JS
 layout: post
 
 ---
-Updated 12/03 @7:08PM
+Updated 12/03 @7:12PM
 
 Removing html block form first, updating stack exchange
 
 Stack exchange
+
+<embed src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" style="width:500px; height: 300px;">
 
 <div class="h_iframe">
 
