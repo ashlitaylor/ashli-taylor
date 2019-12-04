@@ -1,6 +1,6 @@
 ---
 title: Resume
-subtitle: My professional history
+subtitle: ''
 layout: page
 img_path: ''
 menu:
