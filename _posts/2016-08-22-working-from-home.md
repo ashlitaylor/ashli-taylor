@@ -7,21 +7,23 @@ excerpt: Work created using D3.JS
 layout: post
 
 ---
-Updated 12/03 @7:13PM
+Updated 12/03 @7:39PM
 
 Removing html block form first, updating stack exchange
 
 Stack exchange
 
-<div class="h_iframe">
+<blockquote class="embedly-card"><h4><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/">County Poverty Choropleth</a>
 
-<embed src="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true" style="width:500px; height: 300px;"></div>
+<img src="images/choropleth.PNG" alt=""></h4><p>This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, th population, and the income per capita.</p></blockquote>
+
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 <div class="h_iframe">
 
 <!-- a transparent image is preferable -->
 
-<iframe src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true")" style="width:100%;height:360px" scrolling="no"></iframe>
+<iframe src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true")" style="width:100%;height:360px" scrolling="no"></iframe>
 
 </div>
 
