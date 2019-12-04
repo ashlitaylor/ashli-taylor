@@ -7,16 +7,13 @@ excerpt: Work created using D3.JS
 layout: post
 
 ---
-Updated 12/03 @7:59PM
+Updated 12/03 @8:04PM
 
 Removed stack code
 
 <div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px">   
-<span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank"><img src="/images/choropleth.png" alt=""></a></span>
-
-<p>This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, the population, and the income per capita.</p>
-
-</div>
+<span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank"><img src="/images/choropleth.png" alt=""></a></span></div>  
+This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, the population, and the income per capita.
 
 ***
 
