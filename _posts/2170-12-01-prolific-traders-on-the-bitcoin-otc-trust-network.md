@@ -2,7 +2,7 @@
 layout: post
 title: Prolific Traders on The Bitcoin OTC Trust Network
 subtitle: Test test test
-date: 2170-12-01 00:00:00 -0600
+date: 2019-09-09 00:00:00 -0500
 thumb_img_path: "/bitcoin.jpg"
 content_img_path: ''
 excerpt: ''
