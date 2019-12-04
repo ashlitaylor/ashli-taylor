@@ -37,12 +37,12 @@ This horizontal barchart displays the rural populations of Bangladesh, Ethiopia,
 
 #### Scatterplots of Movie Ratings
 
-<span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/97c57e87ab12115382a787f0e237651b/" target="_blank"><img src="/images/barchart.png" alt=""></a></span>  
+<span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/97c57e87ab12115382a787f0e237651b/" target="_blank"><img src="/images/scatterplot.png" alt=""></a></span>  
 This shows scatterplots of movie award metrics (wins, nominations, etc.) versus the movie rating. 
 
 ***
 
-Updated 12/03 @8:18PM
+Updated 12/03 @8:20PM
 
 First block
 
