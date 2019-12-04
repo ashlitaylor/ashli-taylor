@@ -2,12 +2,13 @@
 layout: post
 title: Prolific Traders on The Bitcoin OTC Trust Network
 subtitle: Scala
-date: 2019-03-09
+date: 2019-11-27 00:00:00 -0600
 thumb_img_path: "/images/bitcoin.jpg"
 content_img_path: ''
 excerpt: ''
 canonical_url: ''
-github: <a href="https://github.com/ashlitaylor/Bitcoin"  target="_blank" class="btn btn-primary">GitHub Repository</a>
+github: <a href="https://github.com/ashlitaylor/Bitcoin"  target="_blank" class="btn
+  btn-primary">GitHub Repository</a>
 
 ---
 \---
