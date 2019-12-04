@@ -1,38 +1,123 @@
 ---
-title: "**TEST** Basic Rules For Walking In The Mountains"
+title: Scalable single-machine PageRank on 70M edge graph
 date: 2018-01-09
-thumb_img_path: images/6.jpg
-content_img_path: images/6.jpg
-excerpt: Hiking can sometimes involves bushwhacking and hiking is sometimes referred
-  to as such. This specifically refers to difficult walking through dense forest,
-  undergrowth, or bushes, where forward progress requires pushing vegetation aside.
+thumb_img_path: ''
+content_img_path: ''
+excerpt: Implementing a scalable PageRank algorithm using virtual memory on the LiveJournal
+  graph network.                                      PyPy was used to expedite the
+  packing and unpacking functionality of Python.
 layout: post
-subtitle: ''
+subtitle: Python, PyPy
 canonical_url: ''
 
 ---
-Photo by [David Marcu.](https://unsplash.com/photos/wcHCzgo0_mQ)
+### Introduction
+PageRank, named after Google co-founder Larry Page, is an algorithm that measures webpage importance. According to Google: 
+>PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more important websites are likely to receive more links from other websites
+                                                               
+The PageRank algorithm implemented in the pagerank.py code file can scale to graph datasets with as many as billions of edges and was implemented using my computer's virtual memory.
+>The main idea is to place the dataset in your computer’s (unlimited) virtual memory, as it is often too big to fit in the RAM. When running algorithms on the dataset (e.g., PageRank), 
+the operating system will automatically decide when to load the necessary data (subset of whole dataset) into RAM.
 
-In the United States, Canada, the Republic of Ireland, and United Kingdom, **hiking** refers to walking outdoors on a trail, or off trail, for recreational purposes. A day hike refers to a hike that can be completed in a single day. However, in the United Kingdom, the word walking is also used, as well as rambling, while walking in mountainous areas is called hillwalking. In Northern England, Including the Lake District and Yorkshire Dales, fellwalking describes hill or mountain walks, as fell is the common word for both features there.
+See [here]("http://poloclub.gatech.edu/mmap/") for more details on research on virtual memory mapping. The mapping for this algorithm is done using Python's [mmap]("https://docs.python.org/3/library/mmap.html) and [struct]("https://docs.python.org/2/library/struct.html") modules, and PyPy was used to expedite the packing and unpacking functionality of Python.
+The PageRank algorithm was used on the [LiveJournal]("https://snap.stanford.edu/data/soc-LiveJournal1.html") graph, which contains almost 70 million edges.
+The algorithm outputs the 10 nodes with the highest PageRank scores to a CSV file. 
 
-Hiking can sometimes involves bushwhacking and hiking is sometimes referred to as such. This specifically refers to difficult walking through dense forest, undergrowth, or bushes, where forward progress requires pushing vegetation aside. In extreme cases of bushwhacking, where the vegetation is so dense that human passage is impeded, a machete is used to clear a pathway. The Australian term bushwalking refers to both on and off-trail hiking. Common terms for hiking used by [New Zealanders](https://en.wikipedia.org/wiki/New_Zealand) are tramping (particularly for overnight and longer trips), walking or bushwalking. Trekking is the preferred word used to describe multi-day hiking in the mountainous regions of India, Pakistan, Nepal, North America, South America, Iran and in the highlands of East Africa. Hiking a long-distance trail from end-to-end is also referred to as trekking and as thru-hiking in some places. In North America, multi-day hikes, usually with camping, are referred to as [backpacking](https://en.wikipedia.org/wiki/Backpacking_(wilderness)).
+### Prerequisites
+This code requires ##Python 3.6** or later and uses PyPy, which is a Just-In-Time compilation runtime for Python, which supports fast packing and unpacking. You will also need to download the q1_utils.py code to the desired work folder. To install PyPy:
 
-## Long Distance Hiking
+|OS |Instruction      |
+|:----------|:-------------|
+|Ubuntu |sudo apt-get install pypy|
+|MacOS |Install [Homebrew](https://brew.sh/), then run brew install pypy3.|
+|Windows |[Download](http://pypy.org/download.html#python2-7-compatible-pypy-5-4-1 ) the package and then install it. |
 
-Frequently nowadays long distance hikes (walking tours) are undertaken along long distance paths, including the National Trails in England and Wales, the National Trail System in the USA and The Grande Randonnée (France), Grote Routepaden, or Lange-afstand-wandelpaden (Holland), Grande Rota (Portugal), Gran Recorrido (Spain) is a network of long-distance footpaths in Europe, mostly in France, Belgium, the Netherlands and Spain. There are extensive networks in other European countries of long distance trails, as well as in Canada, Australia, New Zealand, Nepal, and to a lesser extent other Asiatic countries, like Turkey, Israel, and Jordan. In the Alps of Austria, Slovenia, Switzerland, Germany, France, and Italy walking tours are often made from 'hut-to-hut', using an extensive system of mountain huts.
+In the command line, run the following code from the q1_utils folder to learn more about the helper utility that was provided for this assignment.
 
-In the late 20th-century there has been a proliferation of official and unofficial long distance routes, which mean that hikers now are more likely to refer to using a long distance way (Britain), trail (USA), The Grande Randonnée (France), etc., than setting out on a walking tour. Early examples of long distance paths, include the Appalachian Trail in the USA and the Pennine Way in Britain. Pilgrimage routes are now treated, by some walkers, as long distance routes, and the route taken by the British National Trail the North Downs Way closely follows that of the Pilgrims' Way to Canterbury. Hiking times can be estimated by Naismith's rule or Tobler's hiking function.
+```pypy q1_utils.py --help```
+This code was specifically designed for use on the LieJournal graph dataset, which is an edge list file that can be obtained from the SNAP website here: [download](https://snap.stanford.edu/data/soc-LiveJournal1.html). The q1_utils.py and LiveJournal dataset files must be in the same directory/folder.
 
-## Equipment
+### The Code
+```
+import time
+import mmap
+from struct import unpack
 
-The equipment required for hiking depends on the length of the hike, but day hikers generally carry at least water, food, a map, and rain-proof gear. Hikers usually wear sturdy hiking boots for mountain walking and backpacking, as protection from the rough terrain, as well as providing increased stability. The Mountaineers club recommends a list of "Ten Essentials" equipment for hiking, including a compass, sunglasses, sunscreen, a flashlight, a first aid kit, a fire starter, and a knife. Other groups recommend items such as hat, gloves, insect repellent, and an emergency blanket. A GPS navigation device can also be helpful and route cards may be used as a guide.
 
-> Returning home is the most difficult part of long-distance hiking; You have grown outside the puzzle and your piece no longer fits. ― Cindy Ross
+"""
+Below is code for the PageRank algorithm (power iteration).
+Here, the binary index_file contains the mapping of each node's ID to its degree.
+The node IDs range from 0 to max_node_id.
+Hence, the index_file contains (max_node_id + 1) pairs of values,
+each of which is of 'int' C type in little endian byte order.
+The index_file is memory-mapped into the index_map object.
+The binary edge_file contains the edges in the (source ID, target ID) format.
+Hence, the edge_file contains edge_count pairs of values,
+each of which is of 'int' C type in big endian byte order.
+The edge_file is memory-mapped into the edge_map object.
+My task was to determine the correct parameters needed to
+(1) initialize the memory-mapped objects (index_map and edge_map),
+(2) unpack the source and target IDs from the edge_map, and
+(3) upack the source ID and source degree from the index_map.
+This code assumes that the node IDs start from 0 and are contiguous up to max_node_id.
+This algorithm returns the same scores as popular graph analysis libraries like NetworkX.
+"""
+def pagerank(index_file, edge_file, max_node_id, edge_count, damping_factor=0.85, iterations=10):
+    index_map = mmap.mmap(
+        index_file.fileno(),
+        length= (max_node_id+1)*8,  
+        access=mmap.ACCESS_READ)
 
-Proponents of ultralight backpacking argue that long lists of required items for multi-day hikes increases pack weight, and hence fatigue and the chance of injury. Instead, they recommend reducing pack weight, in order to make hiking long distances easier. Even the use of hiking boots on long-distances hikes is controversial among ultralight hikers, because of their weight.
+    edge_map = mmap.mmap(
+        edge_file.fileno(),
+        length= edge_count * 8,  
+        access=mmap.ACCESS_READ)
 
-## Environmental Impact
+    scores = [1.0 / (max_node_id + 1)] * (max_node_id + 1)
 
-Natural environments are often fragile, and may be accidentally damaged, especially when a large number of hikers are involved. For example, years of gathering wood can strip an alpine area of valuable nutrients. and some species, such as martens or bighorn sheep, are very sensitive to the presence of humans, especially around mating season. Generally, protected areas such as parks have regulations in place to protect the environment, so as to minimize such impact. Such regulations include banning wood fires, restricting camping to established camp sites, disposing or packing out faecal matter, and imposing a quota on the number of hikers. Many hikers espouse the philosophy of Leave No Trace, following strict practices on dealing with food waste, food packaging, and other impact on the environment.
+    start_time = time.time()
 
-Human waste is often a major source of environmental impact from hiking, and can contaminate the watershed and make other hikers ill. 'Catholes' dug 10 to 25 cm (4 to 10 inches) deep, depending on local soil composition and covered after use, at least 60 m (200 feet) away from water sources and trails, are recommended to reduce the risk of bacterial contamination. [Source](https://en.wikipedia.org/wiki/Hiking)
+    for it in range(iterations):
+        new_scores = [0.0] * (max_node_id + 1)
+
+        for i in range(edge_count):
+            source, target = unpack(
+                '>ii',  
+                edge_map[i * 8: i * 8 + 8])  
+
+            source_degree = unpack(
+                '<ii',  
+                index_map[source * 8: source * 8 + 8])[1]  
+
+            new_scores[target] += damping_factor * scores[source] / source_degree
+
+        min_pr = (1 - damping_factor) / (max_node_id + 1)
+        new_scores = [min_pr + item for item in new_scores]
+        scores = new_scores
+
+        print ("Completed {0}/{1} iterations. {2} seconds elapsed." \
+            .format(it + 1, iterations, time.time() - start_time))
+
+    print ()
+
+    return scores
+```
+
+### Run
+To run the pagerank.py algorithm, follow the steps below. 
+1. Since memory mapping works with binary files, the graph’s edge list needs to be converted into its binary format by running the following command at the terminal/command prompt (you only need to do this once):
+
+    ```python q1_utils.py convert <path-to-edgelist.txt>```
+
+    This generates 3 files:
+    * A .bin binary file containing edges (source, target) in big-endian “int” C type
+    * A .idx: binary file containing (node, degree) in little-endian “int” C type
+    * A .json: metadata about the conversion process (required to run pagerank)
+
+2. To execute the PageRank algorithm, type the following code into the command line/terminal:
+
+    ```pypy q1_utils.py pagerank <path to JSON file for LiveJournal>```
+
+    This will output the 10 nodes witht he highest PageRank scores. The default number of iterations is 10. The number of iterations can be updated by adding the desired number to the end of the command:
+    ```pypy q1_utils.py pagerank toy-graph/toy-graph.json --iterations 25``
+    A file in the format pagerank_nodes_n.txt  for “n” number of iterations will be created.
