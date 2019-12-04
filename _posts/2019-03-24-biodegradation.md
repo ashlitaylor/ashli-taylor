@@ -101,7 +101,7 @@ The second function partitions the data(X) and labels(y) based on the split valu
 First the code checks if the split attribute is numerical or categorical. If the split attribute is categorical, split_val should be one of the categories.   
 
 <strong>Numeric Split Attribute: </strong>If the split attribute is numeric, split_val should be a numerical value. I split the X data into two lists(X_left and X_right) where the first list has all the rows where the split attribute is less than or equal to the split value, and the second list has all the rows where the split attribute is greater than the split value. I also create two lists(y_left and y_right) with the corresponding y labels.
-</br>
+<br/>
 <strong>Categorical Split Attribute: </strong>I split the data X into two lists(X_left and X_right) where the first list has all the rows where the split attribute is equal to the split value, and the second list has all the rows where the split attribute is not equal to the split value. I also create two lists(y_left and y_right) with the corresponding y labels.
 
 Example: Here, columns 0 and 2 represent numeric attributes, while column 1 is a categorical attribute.
