@@ -21,11 +21,10 @@ excerpt: >-
 
   Scala code that identifies the most connected users on the Bitcoin OTC Trust Weighted Signed Network platform. This maps and identifies the most prolific traders of Bitcoin.
 
-date: 995
+date: 2019-09-09
 
 thumb_img_path: images/bitcoin.jpg
 
 template: page
 
 \---
-
