@@ -1,8 +1,8 @@
 ---
-title: Eye State Classification
-subtitle: Python
-date: 2019-11-30T06:00:00.000+00:00
-thumb_img_path: images/EEgEye.png
+title: Quality of Patient Health Outcomes in America
+subtitle: R, Python
+date: 2019-11-29 00:00:00 -0600
+thumb_img_path: "/Healthcare.jpg"
 excerpt: 'An assortment of classification models that evaluates the future potential
   of predicting whether or not a person''s eyes are open or     closed using EEG sensor
   data. '
