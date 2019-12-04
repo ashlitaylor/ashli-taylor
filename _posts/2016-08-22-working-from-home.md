@@ -3,7 +3,7 @@ title: Visualizations
 date: 2016-08-22
 thumb_img_path: images/visualizations.jpeg
 content_img_path: ''
-excerpt: 'Visualizations created using Data Driven Documents (D3) JavaScript Library.
+excerpt: 'Visualizations created using the Data Driven Documents (D3) JavaScript Library.
   This work leverages D3 to visualize data using HTML, SVG, and CSS. '
 layout: post
 subtitle: D3.JS
