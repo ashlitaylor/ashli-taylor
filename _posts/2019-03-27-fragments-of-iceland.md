@@ -9,6 +9,7 @@ excerpt: 'An assortment of classification models that evaluates the future poten
 layout: post
 content_img_path: ''
 canonical_url: ''
+position: 1
 
 ---
 <header>
