@@ -7,13 +7,27 @@ excerpt: Work created using D3.JS
 layout: post
 
 ---
-Updated 12/03 @6:16PM  
-Changed First block
+Updated 12/03 @6:24PM  
+Adding stack exchange block
+
+Stack exchange
+
+<!-- http://stackoverflow.com/questions/11122249/scale-iframe-css-width-100-like-an-image -->
+
+<div class="h_iframe">
+
+<!-- a transparent image is preferable -->
+
+<p><img class="ratio" src="http://placehold.it/16x12"/> <iframe src="https://r-in-grenoble.github.io/members.html#htmlwidget-21bab010f9ed250fc856" style="border: 0" frameborder="0" scrolling="no"></iframe></p>
+
+</div>
+
+***
 
 First block
 
 <div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px"><iframe src="<!DOCTYPE html>
-<!-- saved from url=(0069)[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/") -->
+<!-- saved from url=(0069)https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>County Poverty Choropleth</title>
 
 <style>
@@ -46,7 +60,7 @@ div.tooltip {
     This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. 
     An added feature of user interacting was added where hovering the cursor over a county shows the state the county is located in,
     the county name, the poverty rate, th population, and the income per capita. 
-    The <a href="[https://www.ers.usda.gov/data-products/county-level-data-sets/](https://www.ers.usda.gov/data-products/county-level-data-sets/ "https://www.ers.usda.gov/data-products/county-level-data-sets/")">data</a> was obtained from the USDA.gov county level data set repository. 
+    The <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/">data</a> was obtained from the USDA.gov county level data set repository. 
     Mapping this kind of data provides insight into the states and regions where financial relief/stimulus measures need to be targetted. 
 </i></p>
 
