@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Prolific Traders on The Bitcoin OTC Trust Network
-subtitle: Scala
-date: 2019-11-27T06:00:00.000+00:00
+title: Atlanta Habitat for Humanity Geo-spatial and Market Analysis
+subtitle: R, GIS
+date: 2019-11-28 00:00:00 -0600
 thumb_img_path: "/images/bitcoin.jpg"
 content_img_path: ''
 excerpt: Scala code that identifies the most connected users on the Bitcoin OTC Trust
