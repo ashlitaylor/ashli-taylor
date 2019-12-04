@@ -1,0 +1,15 @@
+---
+layout: post
+title: Prolific Traders on The Bitcoin OTC Trust Network
+subtitle: Scala
+date: 2019-11-27T06:00:00.000+00:00
+thumb_img_path: "/images/bitcoin.jpg"
+content_img_path: ''
+excerpt: Scala code that identifies the most connected users on the Bitcoin OTC Trust
+  Weighted Signed Network platform. This maps and identifies the most prolific traders
+  of Bitcoin.
+canonical_url: ''
+github: <a href="https://github.com/ashlitaylor/Bitcoin"  target="_blank" class="btn
+  btn-primary">GitHub Repository</a>
+
+---
