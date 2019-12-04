@@ -25,17 +25,17 @@ This Heatmap describes the number and type of crimes in eachh of the 5 boroughs 
 
 ***
 
-<h3 align = "center" ><a href="https://bl.ocks.org/ashlitaylor/raw/ddac6278b46b0b1ced243ac8d990ea63/" target="_blank">Force Directed Graph of the 2017 NFL Season</a></h3>
-
-<span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/ddac6278b46b0b1ced243ac8d990ea63/" target="_blank"><img src="/images/forced.png" alt=""></a></span>  
-This graph displays the wins (green) and losses (blue) during the 2017 NFL Season. The user can interact with drag the graph nodes and fix nodes in place by double clicking.
-
-***
-
 <h3 align = "center" ><a href= "https://bl.ocks.org/ashlitaylor/raw/39028308390e38e8444816d65b2a0ac0/" target="_blank">Interactive Bar Chart of Rural Populations</a> </h3>
 
 <span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/39028308390e38e8444816d65b2a0ac0/" target="_blank"><img src="/images/barchart.png" alt=""></a></span>  
 This horizontal barchart displays the rural populations of Bangladesh, Ethiopia, Kenya, Afghanistan and Morocco. Hovering the cursor over the bars shows the rate of population growth for 2013 - 2017
+
+***
+
+<h3 align = "center" ><a href="https://bl.ocks.org/ashlitaylor/raw/ddac6278b46b0b1ced243ac8d990ea63/" target="_blank">Force Directed Graph of the 2017 NFL Season</a></h3>
+
+<span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/ddac6278b46b0b1ced243ac8d990ea63/" target="_blank"><img src="/images/forced.png" alt=""></a></span>  
+This graph displays the wins (green) and losses (blue) during the 2017 NFL Season. The user can interact with drag the graph nodes and fix nodes in place by double clicking.
 
 ***
 
