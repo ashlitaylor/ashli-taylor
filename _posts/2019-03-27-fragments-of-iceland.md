@@ -1,6 +1,6 @@
 ---
 title: Eye State Classification
-subtitle: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class="btn btn-primary">GitHub Repository</a>
+subtitle: Python
 date: 2019-03-27
 thumb_img_path: images/EEgEye.png
 excerpt: 'An assortment of classification models that evaluates the future potential
@@ -9,7 +9,7 @@ excerpt: 'An assortment of classification models that evaluates the future poten
 layout: post
 content_img_path: ''
 canonical_url: ''
-position: 1
+github: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class="btn btn-primary">GitHub Repository</a>
 
 ---
 <header>
