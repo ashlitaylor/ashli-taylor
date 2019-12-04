@@ -13,13 +13,15 @@ Removing html block form first, updating stack exchange
 
 Stack exchange
 
-<div class="h_iframe"><embed src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/ "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/")" style="width:500px; height: 300px;"></div>
+<div class="h_iframe">
+
+<embed src="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true" style="width:500px; height: 300px;"></div>
 
 <div class="h_iframe">
 
 <!-- a transparent image is preferable -->
 
-<iframe src="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" style="width:100%;height:360px" scrolling="no"></iframe>
+<iframe src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true")" style="width:100%;height:360px" scrolling="no"></iframe>
 
 </div>
 
