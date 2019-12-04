@@ -5,7 +5,10 @@ layout: body
       <h1 class="post-title underline">{{ page.title }}</h1>
     </header><!-- .post-header -->
   <div class="post-feed">
+    <!--
     {% assign display_posts = '/posts' | get_pages | sort: 'date' | reverse %}
+    -->
+    {% assign display_posts = '/posts' | get_pages | sort: 'position'}
     {% for post in display_posts %}
     <article class="post">
       <div class="post-inside">
