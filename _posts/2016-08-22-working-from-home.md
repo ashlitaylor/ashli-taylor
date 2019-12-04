@@ -7,31 +7,18 @@ excerpt: Work created using D3.JS
 layout: post
 
 ---
-Updated 12/03 @7:54PM
+Updated 12/03 @7:59PM
 
-Removing html block form first, updating stack exchange
+Removed stack code
 
-<div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px"> <p>
+<div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:360px">   
+<span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank"><img src="/images/choropleth.png" alt=""></a></span>
 
-<img src = "/images/choropleth.png" alt="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/">
-
-This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, th population, and the income per capita.</p></div>
-
-Stack exchange
-
-<blockquote class="embedly-card"><h4><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/">County Poverty Choropleth</a>
-
-</img></h4></blockquote>
-
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-
-<div class="h_iframe">
-
-<!-- a transparent image is preferable -->
-
-<iframe src="[https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/](https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/pub?embedded=true")" style="width:100%;height:360px" scrolling="no"></iframe>
+<p>This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, the population, and the income per capita.</p>
 
 </div>
+
+***
 
 First block
 
