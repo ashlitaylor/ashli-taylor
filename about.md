@@ -57,7 +57,7 @@ a result of these pursuits, I have gained domain exposure in a variety of domain
 
 My professional and academic development helped me gain an invigorating perspective on my career goals and the expansive potential of data analytics, and is the driving force behind my decision to pursue a career in Data Science.
 
-_Thank You for reading!_
+_Thanks for reading!_
 
 > "All truths are easy to understand once they are discovered; the point is to discover them." <cite>Galileo Galilei</cite>
 
