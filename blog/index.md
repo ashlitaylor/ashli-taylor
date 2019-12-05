@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-subtitle: A sample of of data science projects I have completed for academic, self learning, and hobby purposes.
+subtitle: A sample of work I have completed for academia, self-learning, and fun &hearts;.
 layout: blog
 menu:
   main:
