@@ -38,7 +38,7 @@ lii{
 <lii>&bull; Visualization</lii>
 <lii>&bull; Simulation</lii>
 <lii>&bull; Text Analytics</lii>
-<lii> </lii>
+<lii><br/></lii>
 </uli></div>
 
 <style type = "text/css">
@@ -46,7 +46,7 @@ lii{
   -->
 </style>
 
-<p><br/></p>
+
 The aspect of data science that motivated me to pursue a Masters degree is the diversity of applications where it can be used to have an impact. Through my academic pursuits, I have enjoyed creating projects that explore a variety of domains ranging from health care, to market analysis, to consumer analytics.
 
 My professional and academic development helped me gain an invigorating perspective on my career goals and the expansive potential of data analytics, and is the driving force behind my focus on a career in Data Science.
