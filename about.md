@@ -1,6 +1,6 @@
 ---
 title: About Me
-subtitle: A short page about my background and motivations.
+subtitle: ''
 img_path: ''
 layout: page
 menu:
@@ -18,3 +18,5 @@ I was familiar with the term 'Big Data' as a dynamic challenge in technology and
 _Thank You for reading!_
 
 > "All truths are easy to understand once they are discovered; the point is to discover them." <cite>Galileo Galilei</cite>
+
+<!--A short page about my background and motivations.-->
