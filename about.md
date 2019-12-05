@@ -33,11 +33,12 @@ lii{
 <uli id = "double"><span class="code-comment"></span>
 <lii>&bull; Machine Learning</lii>
 <lii>&bull; Time Series Analysis</lii>
-<lii>&bull; Bayesian Statistics</lii>
 <lii>&bull; Cloud Computing</lii>
 <lii>&bull; Visualization</lii>
-<lii>&bull; Simulation</lii>
+<lii>&bull; Bayesian Statistics</lii>
+<lii>&bull; Optimization</lii>
 <lii>&bull; Text Analytics</lii>
+<lii>&bull; Simulation</lii>
 <lii><br/><br/></lii>
 </uli></div>
 
