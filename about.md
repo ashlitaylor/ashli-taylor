@@ -31,17 +31,17 @@ li{
 #quad li    { width:25%; } <span class="code-comment">/* 4 col */</span>
 #six li     { width:16.666%; } <span class="code-comment">/* 6 col */</span></style>
 <div>
-<ul id = "double" style = "list-style-type:circle;"><span class="code-comment"></span>
-<li>Machine Learning</li>
-<li>Time Series Analysis</li>
-<li>Random Forest</li>
-<li>Support Vetor Machines</li>
-<li>Regression</li>
-<li>Classification</li>
-<li>Bayesian Statistics</li>
-<li>AWS</li>
-<li>Databricks</li>
-<li>Visualization</li>
+<ul id = "double"><span class="code-comment"></span>
+<li>&bull;Machine Learning</li>
+<li>&bull;Time Series Analysis</li>
+<li>&bull;Random Forest</li>
+<li>&bull;Support Vetor Machines</li>
+<li>&bull;Regression</li>
+<li>&bull;Classification</li>
+<li>&bull;Bayesian Statistics</li>
+<li>&bull;AWS</li>
+<li>&bull;Databricks</li>
+<li>&bull;Visualization</li>
 </ul></div>
 
 <style type = "text/css">
