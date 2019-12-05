@@ -38,6 +38,7 @@ lii{
 <lii>&bull; Visualization</lii>
 <lii>&bull; Simulation</lii>
 <lii>&bull; Text Analytics</lii>
+<lii> </lii>
 </uli></div>
 
 <style type = "text/css">
