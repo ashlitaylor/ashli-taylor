@@ -21,9 +21,7 @@ Since 2014 I have been honing my skills on how to wrangle data, visualize it, de
 }
 li{
   line-height:1.5em;
-  <!--
-  border-bottom:1px solid #ccc;
-  -->
+  border-bottom:1px solid #ffffff;
   float:left;
   display:inline;
 }
