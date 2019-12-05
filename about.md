@@ -38,14 +38,13 @@ lii{
 <lii>&bull; Visualization</lii>
 <lii>&bull; Simulation</lii>
 <lii>&bull; Text Analytics</lii>
-<lii><br/></lii>
+<lii><br/><br/></lii>
 </uli></div>
 
 <style type = "text/css">
   <!-- .tab { margin-left: 80px;}
   -->
 </style>
-
 
 The aspect of data science that motivated me to pursue a Masters degree is the diversity of applications where it can be used to have an impact. Through my academic pursuits, I have enjoyed creating projects that explore a variety of domains ranging from health care, to market analysis, to consumer analytics.
 
