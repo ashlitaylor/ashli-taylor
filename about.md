@@ -39,8 +39,8 @@ lii{
 <lii>&bull; Optimization</lii>
 <lii>&bull; Text Analytics</lii>
 <lii>&bull; Simulation</lii>
-<lii><br/><br/></lii>
-<lii><br/><br/></lii>
+<lii><br/></lii>
+<lii><br/></lii>
 </uli></div>
 
 <style type = "text/css">
