@@ -13,6 +13,26 @@ I got my professional start in 2014 working as a process engineer at a semicondu
 
 Since 2014 I have been honing my skills on how to wrangle data, visualize it, derive statistical insights, and build compelling narratives to address issues in a diverse range of fields. I furthered my professional and academic development by obtaining a Masters degree in Analytics from [The Georgia Institute of Technology](https://www.gatech.edu/about/rankings) with a degree concentration in [analytical tools](https://www.analytics.gatech.edu/curriculum/analytical-tools-track). Through this curriculum, I have enjoyed exposure to a variety of domains including health care and market analysis, and have gained skill sets in a variety of applications, including:
 
+Description for rule 1.
+
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+    <div style="display: inline-block;">
+        <h2>Good</h2>
+        <pre><code class="language-c">int foo (void) 
+{
+    int i;
+}
+</code></pre>
+    </div>
+    <div style="display: inline-block;">
+        <h2>Bad</h2>
+        <pre><code class="language-c">int foo (void) {
+    int i;
+}
+</code></pre>
+    </div>
+</div>
+
 <div class = "row">
 
 <div class = "col-6 col-12-small">
