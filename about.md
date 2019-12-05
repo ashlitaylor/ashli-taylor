@@ -17,7 +17,7 @@ Since 2014 I have been honing my skills on how to wrangle data, visualize it, de
   width:760px;
   margin-bottom:20px;
   overflow:hidden;
-  border-top:1px solid #ccc;
+  border-top:1px solid #ffffff;
 }
 li{
   line-height:1.5em;
@@ -30,17 +30,17 @@ li{
 #quad li    { width:25%; } <span class="code-comment">/* 4 col */</span>
 #six li     { width:16.666%; } <span class="code-comment">/* 6 col */</span></style>
 <div>
-<ul id = "double"><span class="code-comment"></span>
-<li>-Machine Learning</li>
-<li>-Time Series Analysis</li>
-<li>-Random Forest</li>
-<li>-Support Vetor Machines</li>
-<li>-Regression</li>
-<li>-Classification</li>
-<li>-Bayesian Statistics</li>
-<li>-AWS</li>
-<li>-Databricks</li>
-<li>-Visualization</li>
+<ul id = "double" style = "list-style-type:circle;"><span class="code-comment"></span>
+<li>Machine Learning</li>
+<li>Time Series Analysis</li>
+<li>Random Forest</li>
+<li>Support Vetor Machines</li>
+<li>Regression</li>
+<li>Classification</li>
+<li>Bayesian Statistics</li>
+<li>AWS</li>
+<li>Databricks</li>
+<li>Visualization</li>
 </ul></div>
 
 <style type = "text/css">
