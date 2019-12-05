@@ -13,38 +13,24 @@ I got my professional start in 2014 working as a process engineer at a semicondu
 
 Since 2014 I have been honing my skills on how to wrangle data, visualize it, derive statistical insights, and build compelling narratives to address issues in a diverse range of fields. I furthered my professional and academic development by obtaining a Masters degree in Analytics from [The Georgia Institute of Technology](https://www.gatech.edu/about/rankings) with a degree concentration in [analytical tools](https://www.analytics.gatech.edu/curriculum/analytical-tools-track). Through this curriculum, I have enjoyed exposure to a variety of domains including health care and market analysis, and have gained skill sets in a variety of applications, including:
 
-
-ul 
-{
-    list-style-type: none;
-    counter-reset: section;
-
-    -moz-column-count: 3;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 20px;
-    column-count: 3;
-    column-gap: 20px;
+<code>ul{
+  width:760px;
+  margin-bottom:20px;
+  overflow:hidden;
+  border-top:1px solid #ccc;
 }
-
-ul li 
-{
-    padding-left: 30px;
-    position: relative;
+li{
+  line-height:1.5em;
+  border-bottom:1px solid #ccc;
+  float:left;
+  display:inline;
 }
+#double li  { width:50%;} <span class="code-comment">/* 2 col */</span>
+#triple li  { width:33.333%; } <span class="code-comment">/* 3 col */</span>
+#quad li    { width:25%; } <span class="code-comment">/* 4 col */</span>
+#six li     { width:16.666%; } <span class="code-comment">/* 6 col */</span></code>
 
-ul li:before 
-{
-    counter-increment: section;
-    content: counter(section) ".";
-    margin: 0 0 0 -34px;
-    text-align: right;
-    width: 2em;
-    display: inline-block;
-    position: absolute;
-    height: 100%;
-}
-<ul>
+<code><ul id = "double">
 <li>Machine Learning</li>
 <li>Time Series Analysis</li>
 <li>Random Forest</li>
@@ -55,7 +41,7 @@ ul li:before
 <li>AWS</li>
 <li>Databricks</li>
 <li>Visualization</li>
-</ul>
+</ul></code>
 
 <style type = "text/css">
   <!-- .tab { margin-left: 80px;}
