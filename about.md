@@ -17,7 +17,6 @@ Since 2014 I have been honing my skills on how to wrangle data, visualize it, de
   width:760px;
   margin-bottom:20px;
   overflow:hidden;
-  list-style-type:circle;
   border-top:1px solid #ffffff;
 }
 li{
