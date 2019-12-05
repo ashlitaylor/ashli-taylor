@@ -13,6 +13,24 @@ I got my professional start in 2014 working as a process engineer at a semicondu
 
 Since 2014 I have been honing my skills on how to wrangle data, visualize it, derive statistical insights, and build compelling narratives to address issues in a diverse range of fields. I furthered my professional and academic development by obtaining a Masters degree in Analytics from [The Georgia Institute of Technology](https://www.gatech.edu/about/rankings) with a degree concentration in [analytical tools](https://www.analytics.gatech.edu/curriculum/analytical-tools-track). Through this curriculum, I have enjoyed exposure to a variety of domains including health care and market analysis, and have gained skill sets in a variety of applications, including:
 
+li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+<li>Machine Learning</li>
+<li>Time Series Analysis</li>
+<li>Random Forest</li>
+<li>Support Vetor Machines</li>
+<li>Regression</li>
+<li>Classification</li>
+<li>Bayesian Statistics</li>
+<li>AWS</li>
+<li>Databricks</li>
+<li>Visualization</li>
+
+
 <style type = "text/css">
   <!-- .tab { margin-left: 80px;}
   -->
@@ -23,6 +41,7 @@ Since 2014 I have been honing my skills on how to wrangle data, visualize it, de
 <p>Python<p class="tab">Scala</p>
 <p>SQL<p class="tab">Pig</p>
 </div>
+
 
 a result of these pursuits, I have gained domain exposure in a variety of domains including healthcare, market analysis, and research. and domains including healthcare, market analysis, and lean manufacturing.
 
