@@ -50,13 +50,6 @@ li{
   -->
 </style>
 
-<div>
-<p>R<p class="tab">Pig</p>
-<p>Python<p class="tab">Scala</p>
-<p>SQL<p class="tab">Pig</p>
-</div>
-
-
 a result of these pursuits, I have gained domain exposure in a variety of domains including healthcare, market analysis, and research. and domains including healthcare, market analysis, and lean manufacturing.
 
 My professional and academic development helped me gain an invigorating perspective on my career goals and the expansive potential of data analytics, and is the driving force behind my decision to pursue a career in Data Science.
