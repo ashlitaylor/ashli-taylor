@@ -15,9 +15,10 @@ Since 2014 I have been honing my skills on how to wrangle data, visualize it, de
 
 <div class="row">
   <div class="col-md-8" markdown="1">
-  Some text.
+  	Col 1 text
   </div>
   <div class="col-md-4" markdown="1">
+    Col 2 test
   <!-- ![Alt Text](../img/folder/blah.jpg) -->
   <img height="600px" class="center-block" src="../img/folder/blah.jpg">
   </div>
