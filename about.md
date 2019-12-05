@@ -13,32 +13,32 @@ I got my professional start in 2014 working as a process engineer at a semicondu
 
 Since 2014 I have been honing my skills on how to wrangle data, visualize it, derive statistical insights, and build compelling narratives to address issues in a diverse range of fields. I furthered my professional and academic development by obtaining a Masters degree in Analytics from [The Georgia Institute of Technology](https://www.gatech.edu/about/rankings) with a degree concentration in [analytical tools](https://www.analytics.gatech.edu/curriculum/analytical-tools-track). Through this degree concentration I have gained a skill set in quantitative methodology and have fluencies in R, Python, SQL, Pig, and Scala. I have applied these languages in a variety of applications, including:
 
-<style>ul{
+<style>uli{
   width:760px;
   margin-bottom:20px;
   overflow:hidden;
   border-top:1px solid #ffffff;
 }
-li{
+lii{
   line-height:1.5em;
   border-bottom:1px solid #ffffff;
   float:left;
   display:inline;
 }
-#double li  { width:50%;} <span class="code-comment">/* 2 col */</span>
-#triple li  { width:33.333%; } <span class="code-comment">/* 3 col */</span>
-#quad li    { width:25%; } <span class="code-comment">/* 4 col */</span>
-#six li     { width:16.666%; } <span class="code-comment">/* 6 col */</span></style>
+#double lii  { width:50%;} <span class="code-comment">/* 2 col */</span>
+#triple lii  { width:33.333%; } <span class="code-comment">/* 3 col */</span>
+#quad lii    { width:25%; } <span class="code-comment">/* 4 col */</span>
+#six lii     { width:16.666%; } <span class="code-comment">/* 6 col */</span></style>
 <div>
-<ul id = "double"><span class="code-comment"></span>
-<li>&bull; Machine Learning</li>
-<li>&bull; Time Series Analysis</li>
-<li>&bull; Bayesian Statistics</li>
-<li>&bull; Cloud Computing</li>
-<li>&bull; Visualization</li>
-<li>&bull; Simulation</li>
-<li>&bull; Text Analytics</li>
-</ul></div>
+<uli id = "double"><span class="code-comment"></span>
+<lii>&bull; Machine Learning</lii>
+<lii>&bull; Time Series Analysis</lii>
+<lii>&bull; Bayesian Statistics</lii>
+<lii>&bull; Cloud Computing</lii>
+<lii>&bull; Visualization</lii>
+<lii>&bull; Simulation</lii>
+<lii>&bull; Text Analytics</lii>
+</uli></div>
 
 <style type = "text/css">
   <!-- .tab { margin-left: 80px;}
