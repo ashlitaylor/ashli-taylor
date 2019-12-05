@@ -48,7 +48,7 @@ display:inline;
 \-->
 </style>
 
-One of the aspects of data science that motivated me to pursue a Masters degree is the wide range of fields where it can be used to have an impact. Through my academic pursuits, I have enjoyed creating projects that explore a variety of domains ranging from health care, to market analysis, to consumer analytics.
+One of the aspects of data science that motivated me to pursue a Masters degree is the expansive breadth of fields where it can be used to have an impact. Through my academic pursuits, I have enjoyed creating projects that explore a variety of domains ranging from health care, to market analysis, to consumer analytics.
 
 My professional and academic development helped me gain an invigorating perspective on my career goals and the expansive potential of data analytics, and is the driving force behind my focus on a career in Data Science.
 
