@@ -30,7 +30,7 @@ li{
 #quad li    { width:25%; } <span class="code-comment">/* 4 col */</span>
 #six li     { width:16.666%; } <span class="code-comment">/* 6 col */</span></style>
 <div>
-<ul id = "double">
+<ul id = "double"><span class="code-comment"></span>
 <li>Machine Learning</li>
 <li>Time Series Analysis</li>
 <li>Random Forest</li>
