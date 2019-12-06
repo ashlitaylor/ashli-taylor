@@ -1,20 +1,16 @@
 ---
-title: How To Choose An Interior Designer
-subtitle: >-
-  Interior design is “the art or process of designing the interior, often
-  including the exterior, of a room or building”.
-date: '2017-03-26'
-thumb_img_path: images/1.jpg
-excerpt: >-
-  Interior design is “the art or process of designing the interior, often
-  including the exterior, of a room or building”. An interior designer is
-  someone who coordinates and manages such projects. Interior design is a
-  multifaceted profession that includes conceptual development, communicating
-  with the stakeholders of a project and the management and execution of the
-  design.
+title: Analyzing The Google Books Trigrams dataset with Pig on AWS
+subtitle: Pig, AWS, S3, EC2, EMR
+date: 2017-03-26
+thumb_img_path: "/trigrams.jpg"
+excerpt: 'Analyzing the Google Trigrams ~120GB dataset using the interactive PIG shell
+  provided by EMR from the command line (grunt) using one master instance and 15 core
+  instances. '
 layout: post
----
+content_img_path: ''
+canonical_url: ''
 
+---
 Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
 
 > “Creativity is nothing but the way to solve new problems.”
