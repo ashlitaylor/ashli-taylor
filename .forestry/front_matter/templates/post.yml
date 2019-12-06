@@ -40,6 +40,12 @@ fields:
   default: post
   config:
     required: true
+- name: github
+  type: text
+  config:
+    required: false
+  label: github
+  description: Github repository link as a button
 pages:
 - _posts/trigrams.md
 - _posts/2018-01-15-best-waves-surfing-spain.md
