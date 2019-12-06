@@ -1,6 +1,6 @@
 ---
 title: Interactive Visualizations
-date: 2016-08-22
+date: 2017-10-01 00:00:00 -0500
 thumb_img_path: images/visualizations.jpeg
 content_img_path: ''
 excerpt: 'Visualizations created using the Data Driven Documents (D3) JavaScript Library.

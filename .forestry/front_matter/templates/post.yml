@@ -47,10 +47,8 @@ fields:
   label: github
   description: Github repository link as a button
 pages:
-- _posts/tmdb.md
 - _posts/2018-01-15-best-waves-surfing-spain.md
 - _posts/2018-01-11-fox-village-in-japan.md
-- _posts/2019-03-10-grand-canyon.md
 - _posts/2018-01-11-fox-village-in-japan.md
 - _posts/2018-01-15-best-waves-surfing-spain.md
 - _posts/2016-08-22-working-from-home.md
