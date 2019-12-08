@@ -24,5 +24,5 @@ fields:
   config:
     required: true
 pages:
-- resume.md
 - about.md
+- resume.md
