@@ -1,6 +1,6 @@
 ---
 title: Interactive Visualizations
-date: 2017-10-01 00:00:00 -0500
+date: 2017-10-01T05:00:00.000+00:00
 thumb_img_path: images/visualizations.jpeg
 content_img_path: ''
 excerpt: 'Visualizations created using the Data Driven Documents (D3) JavaScript Library.
@@ -9,12 +9,15 @@ layout: post
 subtitle: D3.JS
 
 ---
-##### Click on an image to view the corresponding interactive visualization in a separate webpage. 
+##### Click on an image to view the corresponding interactive visualization in a separate webpage.
 
 <h3 align = "center" > <a href = "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank">Choropleth of US County Poverty Rates</a></h3>
-
+<!--
 <span class = "image fit"><a href="https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank"><img src="/images/choropleth.png" alt=""></a></span>  
-This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence**An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, the population, and the income per capita.
+-->
+<iframe class= "embed-responsive-item" style="width:100%;height:360px" src="/images/visualizations/CountyPoverty.html" scrolling="yes"></iframe>
+
+This Choropleth colors the counties in varying shades of blue in proportion to the reported 2017 poverty rate with darker colors indicating higher rates of poverty. Modify this sentence::An feature of user interactio was added where hovering the cursor over a county shows the state the county is located in, the county name, the poverty rate, the population, and the income per capita.
 
 ***
 
