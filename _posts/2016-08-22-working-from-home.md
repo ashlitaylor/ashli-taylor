@@ -9,7 +9,7 @@ layout: post
 subtitle: D3.JS
 
 ---
-##### Click on an the title to view the corresponding interactive visualization in a separate webpage.
+##### Click on a title to view the corresponding interactive visualization in a separate webpage.
 
 <h3 align = "center" > <a href = "https://bl.ocks.org/ashlitaylor/raw/d1d7c917961c301eb4287b68d7eca7d3/" target="_blank">Choropleth of US County Poverty Rates</a></h3>
 <!--
