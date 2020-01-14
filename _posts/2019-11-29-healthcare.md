@@ -17,5 +17,3 @@ github: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7-og9-yht2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Video](https://youtu.be/7-og9-yht2w)
