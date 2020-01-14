@@ -16,6 +16,6 @@ github: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class
 <a href="https://github.com/ashlitaylor/HealthCare" target="_blank" class="btn btn-primary">GitHub Repository</a>
 
 
-<iframe width="560" height="315" src="https://youtu.be/7-og9-yht2w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7-og9-yht2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Video](https://youtu.be/7-og9-yht2w)
