@@ -9,7 +9,7 @@ menu:
 
 ---
 <div align="center" class="embed-responsive embed-responsive-16by9" style="width:100%;height:1800px">
-<iframe class= "embed-responsive-item" style="width:100%;height:100%" src="https://drive.google.com/file/d/1Yozqw2GfFBTjQGRSN7IAFWcH35G5lVjd/pub?embedded=true" scrolling="yes"></iframe>
+<iframe class= "embed-responsive-item" style="width:100%;height:100%" src="https://drive.google.com/file/d/1mV9ZKchYPGIPeCte85J_3x-tpt1VpCUf/preview" scrolling="yes"></iframe>
 </div>
 
 
