@@ -15,5 +15,5 @@ menu:
 
 
 <div id="resume-download">
-<a href="https://drive.google.com/file/d/1mV9ZKchYPGIPeCte85J_3x-tpt1VpCUf/preview" class="btn btn-primary">Download here</a>
+<a href="https://drive.google.com/file/d/1mV9ZKchYPGIPeCte85J_3x-tpt1VpCUf/view?usp=sharing" class="btn btn-primary">Download here</a>
 </div>
