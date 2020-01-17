@@ -3,10 +3,9 @@ title: Quality of Patient Health Outcomes in America
 subtitle: R, Python
 date: 2019-11-29T06:00:00.000+00:00
 thumb_img_path: "/images/Healthcare.jpg"
-excerpt: A project that illustrates how healthcare analytics can be improved by incorporating
-  patient socioeconomic data. I was able to identify, quantify, and rank the most
-  critical features that impact patient mortality and health outcomes, and identify
-  socioeconomic features of statistical significance that may otherwise be overlooked.
+excerpt: 'A project that illustrates how a patient''s socioeconomic status impacts
+  their health outcomes. This project identifies, quantifies, and ranks critical patient
+  features. '
 layout: post
 content_img_path: ''
 canonical_url: ''
