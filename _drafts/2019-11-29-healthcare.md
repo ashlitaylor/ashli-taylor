@@ -35,12 +35,20 @@ Healthcare analytics conventionally use the Donabedian model when evaluating the
 - Process measures refer to specific steps that are undertaken during patient care that produce positive or negative patient outcomes. They form the majority of health care quality measures that are used for public reporting.
 - Outcome measures reflect the impact of the healthcare service or intervention on the health status of patients. A prime example of an outcome measure is patient mortality rate. These measures are often reported to government and commercial payers and form the high-level clinical or financial metrics that hospital facilities typically prioritize for improvement.
 
-Our project encompasses a broader range of data and metrics than is typically used within the medical community to analyze the quality of care. The parameters we have opted to include preserve the ones currently used in healthcare analytics and add extra dimension by incorporating socioeconomic features. Additionally, our project expands upon the scope of the Donabedian model by aggregating the available facility data and parsing them for the approximately 3000 counties across the United States. This allowed us to drive out additional significant factors that influence the quality of healthcare that have not previously been identified.
+Our project encompasses a broader range of data and metrics than is typically used within the medical community to analyze the quality of care. The parameters we have opted to include preserve the ones currently used in healthcare analytics and add extra dimension by incorporating socioeconomic features. Additionally, our project expands upon the scope of the Donabedian model by aggregating the available facility data and parsing them for the approximately 3000 counties across the United States. This allowed us to drive out additional significant factors that influence the quality of healthcare that have not previously been identified. Specifically, our project accomplished the following: 
+
+1. Expanded upon the Donabedian framework used in healthcare analytics by incorporating patient socioeconomic features.
+2. Focused on aggregated county metrics and resources as opposed to facility specific measures.
+3. Presented significant findings via an engaging user interface that maximizes the data to ink ratio instead of a simple statistical report with a static interface.
 
 
+### Data 
 
-A limiting factor of the process and outcome measures is that a hospital is not present in every county to evaluate. Additionally, not every hospital has a sufficient volume of adverse cases and events for meaningful, condition specific evaluation. This was observed in rural counties with lower population densities. These measures required the most processing due to Missing at Random (MAR) data. See the Appendix for the list of all the collected measures and the completeness of the records.
-![Alt text](https://raw.githubusercontent.com/ashlitaylor/ashlitaylor.github.io/master/images/Healthcare.jpg)
+Our project uses readily available public datasets sourced from government databases. Process and outcome measure data from 2017 and socioeconomic data from 2016 was obtained from datasets available from the Department of Health and Human Services. We gathered data for over 4,800 public hospitals.
+
+A limiting factor of the process and outcome measures is that a hospital is not present in every county to evaluate. Additionally, not every hospital has a sufficient volume of adverse cases and events for meaningful, condition specific evaluation. This was observed in rural counties with lower population densities. These measures required the most processing due to Missing at Random (MAR) data. I created a Random Forest regression model to impute the process and outcome parameters with MAR data.
+
+
 
 ### Questions to be answered:
 These questions form the motivation behind the Random Forest model I created to identify the drivers behind mortality rates, readmission rates, and facility ratings:
