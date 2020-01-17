@@ -25,7 +25,7 @@ border-bottom:1px solid #ffffff;
 float:left;
 display:inline;
 }
-\double lii  { width:50%;} <span class="code-comment">/* 2 col _/</span>
+double lii  { width:50%;} <span class="code-comment">/* 2 col _/</span>
 \#triple lii  { width:33.333%; } <span class="code-comment">/_ 3 col _/</span>
 \#quad lii    { width:25%; } <span class="code-comment">/_ 4 col _/</span>
 \#six lii     { width:16.666%; } <span class="code-comment">/_ 6 col */</span></style>
