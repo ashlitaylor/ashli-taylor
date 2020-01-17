@@ -16,6 +16,9 @@ github: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class
 <a href="https://github.com/ashlitaylor/HealthCare" target="_blank" class="btn btn-primary">GitHub Repository</a>
 
 
+A limiting factor of the process and outcome measures is that a hospital is not present in every county to evaluate. Additionally, not every hospital has a sufficient volume of adverse cases and events for meaningful, condition specific evaluation. This was observed in rural counties with lower population densities. These measures required the most processing due to Missing at Random (MAR) data. See the Appendix for the list of all the collected measures and the completeness of the records.
+![Alt text](https://raw.githubusercontent.com/ashlitaylor/ashlitaylor.github.io/master/images/Healthcare.jpg)
+
 ### Questions to be answered:
 These questions form the motivation behind the Random Forest model I created to identify the drivers behind mortality rates, readmission rates, and facility ratings:
 * Can the above dependent variables of interest be adequately explained using only process measures?
@@ -46,3 +49,7 @@ The sklearn library is built on numpy so I import that library, as well as the n
 
 ### Poster Presentation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7-og9-yht2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Conclusion 
+
+We tested whether the current standard of analyzing healthcare could be improved by including publicly available data for socioeconomic factors. The results proved that our proposed method was statistically superior. We identified statistical measures that show that race, education level and poverty rates are socioeconomic factors that should be considered when evaluating ways to improve patient outcomes. This kind of information has enhanced policy implications as more emphasis is placed on overhauling our healthcare system.
