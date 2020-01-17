@@ -3,9 +3,9 @@ title: Quality of Patient Health Outcomes in America
 subtitle: R, Python
 date: 2019-11-29T06:00:00.000+00:00
 thumb_img_path: "/images/Healthcare.jpg"
-excerpt: 'A project that illustrates how a patient''s socioeconomic status impacts
-  their health outcomes. This project identifies, quantifies, and ranks critical patient
-  features. '
+excerpt: A project that illustrates how a patient's socioeconomic status impacts their
+  health outcomes. This project identifies, quantifies, and ranks critical patient
+  features and includes a poster presentation.
 layout: post
 content_img_path: ''
 canonical_url: ''
