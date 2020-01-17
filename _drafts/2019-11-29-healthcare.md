@@ -27,6 +27,15 @@ I conducted a literature survery of over 20 papers and books that explored the c
 
 The lack of cohesive understanding behind the factors that influence our healthcare system is well-known and has not been without effort to address it. Entities that research healthcare quality are often limited in what data they use, opting for a myopic approach with data they have readily available. A simple web search can reveal information about various statistics such as average expenditures, patient outcomes and various hospital ratings, however analysis that explains how these numbers are related is scant. My team believed that an additional layer of research and analysis is needed to gain a deeper understanding of the problem. This is where our project comes in. 
 
+### Evaluation
+
+Healthcare analytics conventionally use the Donabedian model when evaluating the quality of healthcare provided at a medical facility. This model utilizes three evidence-based process measures; structural, process and outcome measures.
+
+- Structural measures provide a general sense of the capacity and capability of a hospital facility to provide high-quality care. These measures typically receive the lowest priority for targeted improvement. Examples of these measures include room size, availability of certain diagnostic technologies and the number or proportion of board-certified physicians.
+- Process measures refer to specific steps that are undertaken during patient care that produce positive or negative patient outcomes. They form the majority of health care quality measures that are used for public reporting.
+- Outcome measures reflect the impact of the healthcare service or intervention on the health status of patients. A prime example of an outcome measure is patient mortality rate. These measures are often reported to government and commercial payers and form the high-level clinical or financial metrics that hospital facilities typically prioritize for improvement.
+
+Our project encompasses a broader range of data and metrics than is typically used within the medical community to analyze the quality of care. The parameters we have opted to include preserve the ones currently used in healthcare analytics and add extra dimension by incorporating socioeconomic features. Additionally, our project expands upon the scope of the Donabedian model by aggregating the available facility data and parsing them for the approximately 3000 counties across the United States. This allowed us to drive out additional significant factors that influence the quality of healthcare that have not previously been identified.
 
 
 
