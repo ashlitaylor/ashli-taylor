@@ -46,7 +46,7 @@ Our project encompasses a broader range of data and metrics than is typically us
 
 Our project uses readily available public datasets sourced from government databases. Process and outcome measure data from 2017 and socioeconomic data from 2016 was obtained from datasets available from the Department of Health and Human Services. We gathered data for over 4,800 public hospitals.
 
-A limiting factor of the process and outcome measures is that a hospital is not present in every county to evaluate. Additionally, not every hospital has a sufficient volume of adverse cases and events for meaningful, condition specific evaluation. This was observed in rural counties with lower population densities. These measures required the most processing due to Missing at Random (MAR) data. I created a Random Forest regression model to impute the process and outcome parameters with MAR data.
+A limiting factor of the process and outcome measures is that a hospital is not present in every county to evaluate. Additionally, not every hospital has a sufficient volume of adverse cases and events for meaningful, condition specific evaluation. This was observed in rural counties with lower population densities. These measures required the most processing due to Missing at Random (MAR) data. I created a Random Forest regression model to impute the process and outcome parameters with MAR data. I chose this model because it was better suited to capture the dimensionality of the observed values and generally yields better imputation accuracy for MAR data. 
 
 
 
