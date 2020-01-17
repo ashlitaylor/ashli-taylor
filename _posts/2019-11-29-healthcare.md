@@ -5,7 +5,7 @@ date: 2019-11-29T06:00:00.000+00:00
 thumb_img_path: "/images/Healthcare.jpg"
 excerpt: A project that illustrates how healthcare analytics can be improved by incorporating
   patient socioeconomic data. I was able to identify, quantify, and rank the most
-  critical features that determine patient mortality and health outcomes, and identify
+  critical features that impact patient mortality and health outcomes, and identify
   socioeconomic features of statistical significance that may otherwise be overlooked.
 layout: post
 content_img_path: ''
