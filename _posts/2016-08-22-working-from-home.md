@@ -1,6 +1,6 @@
 ---
 title: Sample of Interactive Visualizations using D3.JS
-date: 2018-02-16T06:00:00.000+00:00
+date: 2019-03-25 00:00:00 -0500
 thumb_img_path: images/visualizations.jpeg
 content_img_path: ''
 excerpt: 'Visualizations created using the Data Driven Documents (D3) JavaScript Library.
