@@ -86,10 +86,10 @@ Test Measures The null hypothesis (H0) of our experiments is that the models fit
 
 
 ### Poster Presentation
-I created our team poster that illustrated and explained the work that we had completed. 
+I created our team poster that illustrated and explained the experimental work that I completed. My three minute presentation that summarized my work can be viewed below.   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7-og9-yht2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Conclusion 
 
-We tested whether the current standard of analyzing healthcare could be improved by including publicly available data for socioeconomic factors. The results proved that our proposed method was statistically superior. We identified statistical measures that show that race, education level and poverty rates are socioeconomic factors that should be considered when evaluating ways to improve patient outcomes. This kind of information has enhanced policy implications as more emphasis is placed on overhauling our healthcare system.
+I tested whether the current standard of analyzing healthcare could be improved by including publicly available data for socioeconomic factors. The results proved that our proposed method was statistically superior. I identified statistical measures that show that race, education level and poverty rates are socioeconomic factors that should be considered when evaluating ways to improve patient outcomes. This kind of information has enhanced policy implications as more emphasis is placed on overhauling our healthcare system.
