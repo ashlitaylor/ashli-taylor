@@ -18,13 +18,12 @@ sections:
   component: content_block.html
   content: I was first introduced to 'big data' working as an engineer at a 24/7 semiconductor
     fabrication facility, and have been honing my skills on how to explore it, visualize
-    it, and build a narrative with it ever since. Some of the fields and areas that
-    I have studied to facilitate this venture include Time Series Analysis, Deterministic
-    Optimization, Machine Learning (supervised and unsupervised), Bayesian Statistics,
-    and cloud computing on AWS and Databricks. I have developed a fluency in R, Python,
-    SQL, Pig and Scala, and use Tableau and D3.JS to share the compelling insights
-    that I gain from my data exploration. Check out my website and profile to see
-    more of what I have learned.
+    it, and build a narrative with it ever since. Some of my fields of study and interest
+    include Machine Learning, Time Series Analysis, Deterministic Optimization, Bayesian
+    Statistics, and Cloud Computing technologies. I have developed a fluency in R,
+    Python, SQL, Pig, and Scala, and use Tableau and D3.JS to share the insights that
+    I gain from my data exploration. Check out my website to see more of what I have
+    learned.
   image: ''
 - type: postsblock
   template: postsblock
