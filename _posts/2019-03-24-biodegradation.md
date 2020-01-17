@@ -1,7 +1,7 @@
 ---
 title: Random Forest Classifier on the QSAR Biodegradation Data Set
 subtitle: Python
-date: 2019-03-08 00:00:00 -0600
+date: 2019-03-24 00:00:00 -0500
 thumb_img_path: images/biodegradation.jpg
 content_img_path: ''
 excerpt: Implementing a random forest classifier from scratch in Python. The performance
