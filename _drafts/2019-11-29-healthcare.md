@@ -48,13 +48,26 @@ Our project uses readily available public datasets sourced from government datab
 
 A limiting factor of the process and outcome measures is that a hospital is not present in every county to evaluate. Additionally, not every hospital has a sufficient volume of adverse cases and events for meaningful, condition specific evaluation. This was observed in rural counties with lower population densities. These measures required the most processing due to Missing at Random (MAR) data. I created a Random Forest regression model to impute the process and outcome parameters with MAR data. I chose this model because it was better suited to capture the dimensionality of the observed values and generally yields better imputation accuracy for MAR data. 
 
+### Experiment
 
+These five questions form the motivation behind the models I created to study drivers behind mortality rates, readmission rates, and facility ratings:
+- Can our three dependent variables of interest be adequately explained using only process measures?
+- What statistical significance do process measures have as indicators for mortality, readmission rate, and facility rating?
+- How does this significance change when socioeconomic features are included in the model?
+- Are our proposed models that use both process and socioeconomic data statistically better than the models that use process alone?
+- And finally, out of all the variables we sourced, what are the five most important ones for each variable of interest?
 
-### Questions to be answered:
-These questions form the motivation behind the Random Forest model I created to identify the drivers behind mortality rates, readmission rates, and facility ratings:
-* Can the above dependent variables of interest be adequately explained using only process measures?
-* Are our proposed models that use both process and socioeconomic data statistically better than the models that use process alone?
-* Out of all of the features we sourced, what are the five most important ones for each variable of interest?
+#### Implemented models
+
+- Random Forest Regression Model with recursive feature selection: Random forests perform well by ranking the features that best balance the bias-variance tradeoff. However, when correlated features are present (as with our Age, Gender, and Ethnicity data), equivalent importance can be assigned to the group, which can over- or underestimate the actual feature importancexxi. This can be corrected by selecting features recursively. We used the feature selection tool from the Scikit-lean module in Python to identify the features whose importance is greater than the mean importance of all features.
+- Multivariate Regression models with mixed stepwise variable selection: Regression analysis is a simple way to examine the nature and degree of relationships between predictors and the variable of interest. We performed mixed stepwise variable selection in R to iteratively add and remove variables until the subset of features that produces the lowest AIC is found.
+
+Test Measures The null hypothesis (H0) of our experiments is that the models fit to the conventional framework are statistically equivalent to the models fit using our proposed framework. The measures we use to establish which subset is ‘best’ are:
+- The Akaike Information Criterion (AIC). Lower values indicate better quality models.
+- Adjusted Coefficient of determination (R2). Higher values indicate a better proportion of explained variance. We used the adjusted statistic because it adds a penalty for added variables in multiple regression.
+- Analysis of Variance (ANOVA). Used to test if the models are equivalent. A low p-value (below 0.05) indicates that our model is statistically superior.
+
+##### Testing framework
 
 <table>
     <tr>
@@ -70,12 +83,6 @@ These questions form the motivation behind the Random Forest model I created to 
         <td>Facility Rating</td><td>Process</td><td>Process + Socioeconomic</td>
     </tr>
 </table>
-
-#### Recursive Feature Selection
-Random forests perform well by ranking the features that best balance the bias-variance tradeoff. However, when correlated features are present (as with our Age, Gender, and Ethnicity data), equivalent importance can be assigned to the group, which can over- or underestimate the actual feature importance. This can be corrected by selecting features recursively. I used the [feature ranking tool](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFECV.html#sklearn.feature_selection.RFECV) with recursive feature elimination and cross-validated selection of the best number of features from the Scikit-lean module in Python to identify the features whose importance is greater than the mean importance of all features.
-
-##### Load the libraries
-The sklearn library is built on numpy so I import that library, as well as the necessary sklearn libraries to build the Random Forest and perform recursive feature selection. I also import pandas to load and store the data in a dataframe. 
 
 
 ### Poster Presentation
