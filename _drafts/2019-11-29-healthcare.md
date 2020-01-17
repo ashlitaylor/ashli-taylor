@@ -16,6 +16,20 @@ github: <a href="https://github.com/ashlitaylor/EyeState"  target="_blank" class
 <a href="https://github.com/ashlitaylor/HealthCare" target="_blank" class="btn btn-primary">GitHub Repository</a>
 
 
+### Abstract
+Quality of care and patient outcomes are significant determinants of the effectiveness of a healthcare system. My team's project expands upon the best practices in healthcare analytics for evaluating the current status of patient care, and analyzes relationships between various factors that drive cost and influence high quality outcomes. Our project summarizes the findings in a comprehensive, interactive representation of these factors to provide enhanced insight into the main drivers of quality of healthcare, and ultimately facilitates improved patient control and targeted improvement efforts.
+
+### Background
+
+The importance of the integration of information technology and healthcare has been established since 2001 when the Institute of Medicine made a recommendation for IT to be used to improve access to information and support evidence-based decision making. Unfortunately, identifying the information that is available, coalescing it into a cohesive whole, and pulling out relevant details is still a challenge, particularly in the integration of the disparate data sources. As a result of these limits, decisions and policies are made with an incomplete picture of contributing factors. Contrary to other industries that have leveraged technology to produce improvements in expenditure and efficiency, America’s healthcare spending and effectiveness have not improved proportionately with increased technology integration and spending.
+
+I conducted a literature survery of over 20 papers and books that explored the current standards of statistical inference in healthcare analytics, and how they can improve by incorporating socioeconomic data. While there have been advancements and improvements, the implementation of best practices has not been uniform, and in fact has resulted in deteriorating health outcomes, reduced life expectancy and maternal mortality rates. America has dramatically increased spending on healthcare innovation and technology, and information has never been more ubiquitous, however patients are less informed and less empowered about their healthcare decisions than ever. 
+
+The lack of cohesive understanding behind the factors that influence our healthcare system is well-known and has not been without effort to address it. Entities that research healthcare quality are often limited in what data they use, opting for a myopic approach with data they have readily available. A simple web search can reveal information about various statistics such as average expenditures, patient outcomes and various hospital ratings, however analysis that explains how these numbers are related is scant. 
+
+
+
+
 A limiting factor of the process and outcome measures is that a hospital is not present in every county to evaluate. Additionally, not every hospital has a sufficient volume of adverse cases and events for meaningful, condition specific evaluation. This was observed in rural counties with lower population densities. These measures required the most processing due to Missing at Random (MAR) data. See the Appendix for the list of all the collected measures and the completeness of the records.
 ![Alt text](https://raw.githubusercontent.com/ashlitaylor/ashlitaylor.github.io/master/images/Healthcare.jpg)
 
@@ -48,6 +62,8 @@ The sklearn library is built on numpy so I import that library, as well as the n
 
 
 ### Poster Presentation
+I created our team poster that illustrated and explained the work that we had completed. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7-og9-yht2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Conclusion 
