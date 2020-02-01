@@ -9,7 +9,7 @@ menu:
 
 ---
 <div class= 'embed-responsive' style='padding -bottom:150%'>
-<object data = 'https://drive.google.com/file/d/1unFJWRAWoMkqJJ10KVggB5-q1izh-h1I/preview' type = 'application/pdf' width= '100%' height= '100%'>
+<object data = 'https://drive.google.com/file/d/1unFJWRAWoMkqJJ10KVggB5-q1izh-h1I/preview' type = 'application/pdf' width= '100%' height= '300%'>
 </object>
 </div>
 
