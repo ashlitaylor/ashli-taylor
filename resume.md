@@ -8,6 +8,14 @@ menu:
     weight: 3
 
 ---
+.embed-responsive{
+	position:relative;
+    display:block;
+    height:0;
+    padding:0;
+    overflow:hidden;
+}
+
 <div align='center' class= 'embed-responsive' style='padding -bottom:150%'>
 <object data = 'https://drive.google.com/file/d/1unFJWRAWoMkqJJ10KVggB5-q1izh-h1I/preview' type = 'application/pdf' width= '100%' height= '800px'>
 </object>
