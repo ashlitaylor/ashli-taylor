@@ -7,14 +7,14 @@ palette: blue
 header:
   title: Ashli Taylor
   tagline: Data Scientist
-  profile_img: "/images/meblue2.jpg"
+  profile_img: "/me in white (2)-1.jpg"
   bg: dark
   has_nav: true
   has_social: true
 footer:
   content: "&copy Ashli Taylor 2019."
   links:
-  - text:  Designed with Jekyll
+  - text: Designed with Jekyll
     url: https://jekyllrb.com/
     new_window: true
 sass:
