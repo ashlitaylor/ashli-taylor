@@ -1,6 +1,6 @@
 ---
 title: Ashli Taylor
-description: My portfolio
+description: A portfolio of my previous work and motivations. 
 baseurl: "/"
 permalink: "/:title/"
 layout_style: overflow
