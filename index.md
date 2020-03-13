@@ -1,6 +1,7 @@
 ---
 title: Portfolio
 profile_img: 'images/inwhite.jpg'
+description: An introduction to my previous data science work and motivations.
 sections:
 - type: heroblock
   template: heroblock
