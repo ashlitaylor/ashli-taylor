@@ -1,5 +1,6 @@
 ---
 title: Home
+image: 'images/inwhite.jpg'
 sections:
 - type: heroblock
   template: heroblock
@@ -24,7 +25,7 @@ sections:
     a fluency in R, Python, SQL, Pig, and Scala, and use Tableau and D3.JS to share
     the insights that I gain from my data exploration. Check out my website or get
     in touch to see more of what I have learned \U0001F469\U0001F3FE‍\U0001F4BB"
-  image: 'images/inwhite.jpg'
+  image: ''
 - type: postsblock
   template: postsblock
   title: Featured Projects
