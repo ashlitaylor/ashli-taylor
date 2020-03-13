@@ -1,6 +1,6 @@
 ---
-title: Home
-image: 'images/inwhite.jpg'
+title: Portfolio
+profile_img: 'images/inwhite.jpg'
 sections:
 - type: heroblock
   template: heroblock
