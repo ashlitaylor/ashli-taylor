@@ -8,6 +8,7 @@ palette: blue
 header:
   title: Ashli Taylor
   tagline: Data Scientist
+  description: A portfolio of my previous work and motivations.
   profile_img: "images/inwhite.jpg"
   bg: dark
   has_nav: true
