@@ -9,6 +9,7 @@
       <div class="post-inside">
         {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
         {% if thumb_img_path_is_not_empty %}
+        <meta property="og:image" content="{{ post.url }}/{{ post.thumb_img_path }}" />
         <a class="post-thumbnail" href="{{ post.url | relative_url }}"><img class="thumbnail"
             src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" /></a>
         {% endif %}
