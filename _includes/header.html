@@ -11,6 +11,7 @@
         {% endif %}
         <div class="site-identity">
           {% if page.layout == 'home' or page.layout == 'blog' %}
+          <meta property="og:image" content="{{ site.header.profile_img }}" />
           <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></h1>
           {% else %}
           <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
