@@ -1,7 +1,8 @@
 ---
-title: Random Forest Classifier on the QSAR Biodegradation Data Set
-subtitle: Python
-date: 2019-03-24 00:00:00 -0500
+title: Building a Random Forest Classifier from scratch for QSAR Biodegradation Data
+  Set
+subtitle: Python, Decision Trees, Classification
+date: 2019-03-24T05:00:00.000+00:00
 thumb_img_path: images/biodegradation.jpg
 content_img_path: ''
 excerpt: Implementing a random forest classifier from scratch in Python. The performance
