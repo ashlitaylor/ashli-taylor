@@ -1,12 +1,12 @@
 ---
 title: Sample of Interactive Visualizations using D3.JS
-date: 2019-03-25 00:00:00 -0500
+date: 2019-03-25T05:00:00.000+00:00
 thumb_img_path: images/visualizations.jpeg
 content_img_path: ''
 excerpt: 'Visualizations created using the Data Driven Documents (D3) JavaScript Library.
   This work leverages D3 to visualize data using HTML, SVG, and CSS. '
 layout: post
-subtitle: D3.JS
+subtitle: D3.JS, Interactive Data Visualization
 
 ---
 ##### Click on a title to view the corresponding interactive visualization in a separate webpage.
