@@ -1,6 +1,6 @@
 ---
 title: Quality of Patient Health Outcomes in America
-subtitle: R, Python
+subtitle: R, Python, Hypothesis testing, Machine Learning
 date: 2019-11-29T06:00:00.000+00:00
 thumb_img_path: "/images/Healthcare.jpg"
 excerpt: A project that illustrates how a patient's socioeconomic status impacts their
